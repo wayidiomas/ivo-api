@@ -1,0 +1,31 @@
+# ============================================================================
+# config/prompts/sentences_contextual.yaml  
+# ============================================================================
+system_prompt: |
+  You are an expert in creating sentences that connect vocabulary naturally and progressively.
+  Focus on demonstrating real word usage in meaningful contexts.
+
+user_prompt: |
+  VOCABULARY: {vocabulary_words}
+  CONTEXT: {unit_context}
+  LEVEL: {cefr_level}
+  
+  PREVIOUS VOCABULARY: {previous_vocabulary}
+  PROGRESSION: {progression_level}
+  
+  Create sentences that:
+  1. CONNECT new words with known ones
+  2. DEMONSTRATE natural and contextual usage
+  3. PROGRESS in complexity
+  4. ARE RELEVANT to the context
+  
+  CONNECTION PATTERNS:
+  - New words + known words
+  - Situations from the unit context
+  - Progression simple → complex
+  - Naturalness for native speakers
+  
+  PROGRESSION EXAMPLE:
+  Simple: "The hotel has a reception."
+  Intermediate: "I made a reservation at the hotel reception."
+  Complex: "After making the reservation, I confirmed the booking details with the receptionist."

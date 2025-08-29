@@ -1,0 +1,1917 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-23T00:09:48.236334",
+    "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+    "configuration": {
+      "unit_name": "teste saudações",
+      "context": "saudações em ingles para iniciantes",
+      "cefr_level": "A1",
+      "language_variant": "american_english",
+      "unit_type": "lexical_unit",
+      "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+      "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+      "vocab_count": 15,
+      "vocab_difficulty": "beginner",
+      "sentences_count": 15,
+      "sentences_complexity": "simple",
+      "tips_count": 4,
+      "qa_count": 10,
+      "assessments_count": 4,
+      "use_image": false,
+      "use_webhooks": false,
+      "include_aim_detector": false,
+      "include_l1_interference": false
+    },
+    "errors": [
+      "/api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/qa: HTTP 500: {\"detail\":\"Erro interno na geração de Q&A: 'PromptGeneratorService' object has no attribute '_load_all_templates'\"}"
+    ]
+  },
+  "generated_content": {
+    "vocabulary": {
+      "success": true,
+      "data": {
+        "vocabulary": {
+          "items": [
+            {
+              "word": "goodbye",
+              "phoneme": "/ɡʊdˈbaɪ/",
+              "definition": "adeus, tchau",
+              "example": "Goodbye, see you tomorrow!",
+              "word_class": "interjection",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "good morning",
+              "phoneme": "/ɡʊd ˈmɔrnɪŋ/",
+              "definition": "bom dia",
+              "example": "Good morning! How was your night?",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 3,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "good afternoon",
+              "phoneme": "/ɡʊd ˌæftərˈnun/",
+              "definition": "boa tarde",
+              "example": "Good afternoon! How can I help you?",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 4,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "good evening",
+              "phoneme": "/ɡʊd ˈivnɪŋ/",
+              "definition": "boa noite (ao chegar)",
+              "example": "Good evening! Welcome to our event.",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 4,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "good night",
+              "phoneme": "/ɡʊd naɪt/",
+              "definition": "boa noite (ao sair ou dormir)",
+              "example": "Good night! Sleep well.",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "how are you",
+              "phoneme": "/haʊ ɑr ju/",
+              "definition": "como você está",
+              "example": "Hi, how are you today?",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 4,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "i'm fine",
+              "phoneme": "/aɪm faɪn/",
+              "definition": "estou bem",
+              "example": "I'm fine, thank you for asking.",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "thank you",
+              "phoneme": "/ˈθæŋk ju/",
+              "definition": "obrigado",
+              "example": "Thank you for your help!",
+              "word_class": "phrase",
+              "frequency_level": "very_high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "you're welcome",
+              "phoneme": "/jʊər ˈwɛlkəm/",
+              "definition": "de nada",
+              "example": "You're welcome, anytime!",
+              "word_class": "phrase",
+              "frequency_level": "high",
+              "context_relevance": 0.8,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 4,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "nice to meet you",
+              "phoneme": "/naɪs tə miːt ju/",
+              "definition": "prazer em conhecê-lo",
+              "example": "It's nice to meet you, John.",
+              "word_class": "phrase",
+              "frequency_level": "high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 5,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "see you later",
+              "phoneme": "/si ju ˈleɪtər/",
+              "definition": "até mais",
+              "example": "See you later, alligator!",
+              "word_class": "phrase",
+              "frequency_level": "high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 4,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "take care",
+              "phoneme": "/teɪk kɛr/",
+              "definition": "cuide-se",
+              "example": "Take care and drive safely!",
+              "word_class": "phrase",
+              "frequency_level": "high",
+              "context_relevance": 0.8,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 3,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "bye",
+              "phoneme": "/baɪ/",
+              "definition": "tchau",
+              "example": "Bye! Have a great day!",
+              "word_class": "interjection",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "important",
+              "phoneme": "/important/",
+              "definition": "importante",
+              "example": "I often use important in my daily conversations.",
+              "word_class": "adjective",
+              "frequency_level": "high",
+              "context_relevance": 0.7,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": null,
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "help",
+              "phoneme": "/help/",
+              "definition": "ajudar",
+              "example": "I often use help in my daily conversations.",
+              "word_class": "verb",
+              "frequency_level": "high",
+              "context_relevance": 0.7,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": null,
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            }
+          ],
+          "total_count": 15,
+          "context_relevance": 1.0,
+          "new_words_count": 13,
+          "reinforcement_words_count": 0,
+          "rag_context_used": {
+            "taught_vocabulary": [],
+            "used_strategies": [],
+            "progression_level": "high_frequency_basic",
+            "vocabulary_density": 0.0
+          },
+          "progression_level": "high_frequency_basic",
+          "phoneme_coverage": {
+            "total_unique_phonemes": 31,
+            "coverage_score": 100
+          },
+          "pronunciation_variants": [
+            "american_english"
+          ],
+          "phonetic_complexity": "complex",
+          "generated_at": "2025-08-23T03:07:19.762972"
+        },
+        "generation_stats": {
+          "total_words": 15,
+          "new_words": 13,
+          "reinforcement_words": 0,
+          "context_relevance": "100.0%",
+          "processing_time": "33.94s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+          "previous_status": "creating",
+          "new_status": "sentences_pending",
+          "next_step": "Gerar sentences conectadas ao vocabulário"
+        },
+        "rag_context_used": {
+          "taught_vocabulary_count": 0,
+          "avoided_repetitions": 15,
+          "progression_level": "high_frequency_basic",
+          "images_analyzed": 0
+        },
+        "migration_info": {
+          "images_analyzed": 0,
+          "service_analysis_success": false,
+          "vocabulary_from_images": 0,
+          "migration_status": "✅ MCP → Service migration completed successfully"
+        }
+      },
+      "message": "Vocabulário gerado com sucesso para unidade 'Unidade saudações em ingles para inici...' (service integrado)",
+      "timestamp": "2025-08-23T03:07:22.614690",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "sequence": 1
+      },
+      "next_suggested_actions": [
+        "Gerar sentences conectadas",
+        "POST /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/sentences",
+        "Verificar contexto RAG atualizado",
+        "GET /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/context"
+      ]
+    },
+    "sentences": {
+      "success": true,
+      "data": {
+        "sentences": {
+          "sentences": [
+            {
+              "text": "```json\n{\n  \"sentences\": [\n    {\n      \"text\": \"Good morning you're welcome.",
+              "vocabulary_used": [
+                "good morning",
+                "you're welcome",
+                "you're welcome"
+              ],
+              "context_situation": "extracted_context_1",
+              "complexity_level": "simple",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good morning",
+                "you're welcome",
+                "you're welcome"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ŋ"
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"good morning\"],\n      \"context_situation\": \"greeting in the morning\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good morning\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'mor' in 'morning' see you later.",
+              "vocabulary_used": [
+                "good morning",
+                "see you later",
+                "see you later"
+              ],
+              "context_situation": "extracted_context_2",
+              "complexity_level": "simple",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good morning",
+                "see you later",
+                "see you later"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ŋ"
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good afternoon take care.",
+              "vocabulary_used": [
+                "good afternoon",
+                "take care",
+                "take care"
+              ],
+              "context_situation": "extracted_context_3",
+              "complexity_level": "simple",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good afternoon",
+                "take care",
+                "take care"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "stress_pattern_practice"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"good afternoon\"],\n      \"context_situation\": \"greeting in the afternoon\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good afternoon\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'noon' in 'afternoon' important.",
+              "vocabulary_used": [
+                "good afternoon",
+                "important",
+                "important"
+              ],
+              "context_situation": "extracted_context_4",
+              "complexity_level": "simple",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good afternoon",
+                "important",
+                "important"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "stress_pattern_practice"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good evening help.",
+              "vocabulary_used": [
+                "good evening",
+                "help",
+                "help"
+              ],
+              "context_situation": "extracted_context_5",
+              "complexity_level": "simple",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good evening",
+                "help",
+                "help"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ŋ"
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"good evening\"],\n      \"context_situation\": \"greeting in the evening\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good evening\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'eve' in 'evening'",
+              "vocabulary_used": [
+                "good evening"
+              ],
+              "context_situation": "extracted_context_6",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good evening"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ŋ"
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good night",
+              "vocabulary_used": [
+                "good night"
+              ],
+              "context_situation": "extracted_context_7",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "good night"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"good night\"],\n      \"context_situation\": \"saying goodbye at night\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good night\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'night'",
+              "vocabulary_used": [
+                "goodbye",
+                "good night",
+                "bye"
+              ],
+              "context_situation": "extracted_context_8",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "goodbye",
+                "good night",
+                "bye"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"How are you",
+              "vocabulary_used": [
+                "how are you"
+              ],
+              "context_situation": "extracted_context_9",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "how are you"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"how are you\"],\n      \"context_situation\": \"asking about someone's well-being\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"how are you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'how' and 'are'",
+              "vocabulary_used": [
+                "how are you"
+              ],
+              "context_situation": "extracted_context_10",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "how are you"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"request\",\n      \"sentence_length\": 3,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"I'm fine, thank you",
+              "vocabulary_used": [
+                "i'm fine",
+                "thank you"
+              ],
+              "context_situation": "extracted_context_11",
+              "complexity_level": "complex",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "i'm fine",
+                "thank you"
+              ],
+              "phonetic_features": [
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: θ, ŋ"
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"i'm fine\", \"thank you\"],\n      \"context_situation\": \"responding to a greeting\",\n      \"complexity_level\": \"simple\",\n      \"reinforces_previous\": [\"how are you\"],\n      \"introduces_new\": [\"i'm fine\", \"thank you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'I'm' and 'fine'",
+              "vocabulary_used": [
+                "how are you",
+                "i'm fine",
+                "thank you"
+              ],
+              "context_situation": "extracted_context_12",
+              "complexity_level": "complex",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "how are you",
+                "i'm fine",
+                "thank you"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus",
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: θ, ŋ"
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"information\",\n      \"sentence_length\": 4,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Nice to meet you",
+              "vocabulary_used": [
+                "nice to meet you"
+              ],
+              "context_situation": "extracted_context_13",
+              "complexity_level": "complex",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "nice to meet you"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"nice to meet you\"],\n      \"context_situation\": \"meeting someone for the first time\",\n      \"complexity_level\": \"simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"nice to meet you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'to' and 'meet'",
+              "vocabulary_used": [
+                "nice to meet you"
+              ],
+              "context_situation": "extracted_context_14",
+              "complexity_level": "complex",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "nice to meet you"
+              ],
+              "phonetic_features": [
+                "multisyllabic_focus"
+              ],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 4,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Goodbye",
+              "vocabulary_used": [
+                "goodbye",
+                "bye"
+              ],
+              "context_situation": "extracted_context_15",
+              "complexity_level": "complex",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "goodbye",
+                "bye"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            }
+          ],
+          "vocabulary_coverage": 1.0,
+          "contextual_coherence": 0.0,
+          "progression_appropriateness": 0.3333333333333333,
+          "phonetic_progression": [
+            "Sentence 1: 1 phonetic elements, avg 3.0 syllables",
+            "Sentence 2: 1 phonetic elements, avg 3.0 syllables",
+            "Sentence 3: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 4: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 5: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 6: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 7: 1 phonetic elements, avg 2.0 syllables",
+            "Sentence 8: 3 phonetic elements, avg 1.3 syllables",
+            "Sentence 9: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 10: 1 phonetic elements, avg 4.0 syllables",
+            "Sentence 11: 2 phonetic elements, avg 2.0 syllables",
+            "Sentence 12: 3 phonetic elements, avg 2.7 syllables",
+            "Sentence 13: 1 phonetic elements, avg 5.0 syllables",
+            "Sentence 14: 1 phonetic elements, avg 5.0 syllables",
+            "Sentence 15: 2 phonetic elements, avg 1.0 syllables"
+          ],
+          "pronunciation_patterns": [
+            "Stress patterns: 2 types across sentences",
+            "Syllable complexity: avg 2.9, max 5",
+            "Vowel focus: 4 challenging vowel sounds",
+            "Consonant focus: 2 challenging consonants"
+          ],
+          "generated_at": "2025-08-23T03:07:49.420238"
+        },
+        "generation_stats": {
+          "total_sentences": 15,
+          "vocabulary_coverage": "100.0%",
+          "contextual_coherence": "0.0%",
+          "processing_time": "23.83s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+          "previous_status": "sentences_pending",
+          "new_status": "content_pending",
+          "next_step": "Gerar estratégias (TIPS ou GRAMMAR)"
+        },
+        "rag_context_used": {
+          "taught_vocabulary_count": 0,
+          "reinforcement_words": 0,
+          "progression_level": "basic_introduction"
+        }
+      },
+      "message": "Sentences geradas com sucesso para unidade 'Unidade saudações em ingles para inici...'",
+      "timestamp": "2025-08-23T03:07:51.749226",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "sequence": 1
+      },
+      "next_suggested_actions": [
+        "Gerar TIPS",
+        "POST /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/tips",
+        "Verificar contexto RAG atualizado",
+        "GET /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/context"
+      ]
+    },
+    "tips": {
+      "success": true,
+      "data": {
+        "tips": {
+          "strategy": "expressoes_fixas",
+          "title": "TIP 4: Expressões Fixas",
+          "explanation": "Esta estratégia permite que alunos iniciantes em inglês memorizem saudações e despedidas inteiras como blocos de linguagem, sem precisar construir frases palavra por palavra. Ao praticar expressões fixas, como 'good morning' ou 'how are you?', os alunos internalizam o ritmo, a entonação e os contextos de uso, o que facilita a comunicação natural em situações cotidianas, como encontros, diálogos e despedidas.",
+          "examples": [
+            "Exemplo 1: O professor utiliza uma imagem de uma manhã ensolarada para apresentar a expressão 'good morning'. Os alunos repetem a expressão, associando-a ao cenário apresentado. Esta atividade reforça tanto o vocabulário quanto a conexão entre imagem e significado.",
+            "Exemplo 2: Em uma simulação de diálogo, um aluno pergunta 'how are you?' e o colega responde usando 'i'm fine, thank you' e acrescentando 'you're welcome' se apropriado. Este exercício prática a troca natural de saudações e respostas, utilizando vocabulário cotidiano.",
+            "Exemplo 3: Durante um role play, os alunos praticam saudações e despedidas. Iniciam com 'good afternoon' ou 'good evening' em situações de chegada e fecham com 'goodbye' ou 'nice to meet you' durante a despedida, reforçando o uso contextualizado dessas expressões fixas."
+          ],
+          "practice_suggestions": [
+            "Atividade de Flashcards: Crie cartões com imagens que representem situações (por exemplo, um sol nascente para 'good morning' e um pôr do sol para 'good night') e associe cada imagem à respectiva expressão. Os alunos podem praticar em pares, alternando entre a identificação visual e a verbalização das expressões.",
+            "Dramatização em Duplas ou Pequenos Grupos: Organize simulações de cenários de encontro (por exemplo, cumprimentos no início de uma aula ou reunião) e despedida. Incentive os alunos a usarem frases como 'how are you?', 'i'm fine', 'thank you' e 'nice to meet you' para reforçar as interações naturais."
+          ],
+          "memory_techniques": [
+            "Associação Visual: Relacione cada expressão com uma imagem marcante ou situação específica. Por exemplo, associe 'good night' a imagens de um céu estrelado ou da lua, o que ajuda os alunos a fixarem a expressão de maneira intuitiva.",
+            "Repetição Cíclica: Estabeleça rotinas diárias de cumprimentos e despedidas. Repetir as expressões em contextos variados, como em encontros simulados, ajuda a consolidar a memorização e promove a fluência no uso das expressões."
+          ],
+          "vocabulary_coverage": [
+            "goodbye",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "good night",
+            "how are you",
+            "i'm fine",
+            "thank you",
+            "you're welcome",
+            "nice to meet you"
+          ],
+          "complementary_strategies": [
+            "idiomas",
+            "chunks"
+          ],
+          "selection_rationale": "A estratégia \"expressoes_fixas\" é ideal para esse vocabulário, pois oferece aos alunos modelos diretos e constantes na comunicação de saudações, facilitando a memorização e uso prático das expressões do dia a dia. Ademais, por sua simplicidade, ela se adapta ao nível A1 ao permitir a assimilação gradual e balanceada das competências de fala, audição e leitura, estabelecendo uma base sólida para a comunicação em inglês.",
+          "phonetic_focus": [
+            "Conexão e ligação entre palavras (linking): enfatize a fluidez natural ao unir palavras, como na junção de \"good\" e \"morning\", de maneira que não soe como duas palavras separadas.",
+            "Redução e schwa: identifique e pratique a redução de sons vocálicos, por exemplo, a redução do /ə/ em \"afternoon\" (/ˌæftərˈnun/), que é comum na fala rápida e natural do inglês americano.",
+            "Ritmo e entonação: trabalhe a cadência rítmica característica de expressões cotidianas, assegurando que o padrão de acentuação (stress) e a variação tonal estejam condizentes com o padrão americano."
+          ],
+          "pronunciation_tips": [
+            "Pratique a transição suave entre as palavras, evitando pausas abruptas — por exemplo, em \"good morning\", faça uma ligação natural entre o final de \"good\" e o início de \"morning\".",
+            "Realize exercícios de shadowing (imitação) com áudios nativos para internalizar o ritmo e a entonação natural das expressões.",
+            "Use a repetição cíclica focada em expressões como um bloco único, enfatizando a sonoridade conjunta, para que os alunos memorizem os padrões fonéticos de forma intuitiva."
+          ]
+        },
+        "generation_stats": {
+          "strategy_selected": "expressoes_fixas",
+          "vocabulary_coverage": 10,
+          "total_examples": 3,
+          "practice_suggestions": 2,
+          "processing_time": "64.13s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+          "previous_status": "content_pending",
+          "new_status": "assessments_pending",
+          "next_step": "Gerar assessments para finalizar a unidade"
+        },
+        "strategy_analysis": {
+          "selected_strategy": "expressoes_fixas",
+          "selection_rationale": "A estratégia \"expressoes_fixas\" é ideal para esse vocabulário, pois oferece aos alunos modelos diretos e constantes na comunicação de saudações, facilitando a memorização e uso prático das expressões do dia a dia. Ademais, por sua simplicidade, ela se adapta ao nível A1 ao permitir a assimilação gradual e balanceada das competências de fala, audição e leitura, estabelecendo uma base sólida para a comunicação em inglês.",
+          "used_strategies_context": [],
+          "complementary_strategies": [
+            "idiomas",
+            "chunks"
+          ],
+          "phonetic_focus": [
+            "Conexão e ligação entre palavras (linking): enfatize a fluidez natural ao unir palavras, como na junção de \"good\" e \"morning\", de maneira que não soe como duas palavras separadas.",
+            "Redução e schwa: identifique e pratique a redução de sons vocálicos, por exemplo, a redução do /ə/ em \"afternoon\" (/ˌæftərˈnun/), que é comum na fala rápida e natural do inglês americano.",
+            "Ritmo e entonação: trabalhe a cadência rítmica característica de expressões cotidianas, assegurando que o padrão de acentuação (stress) e a variação tonal estejam condizentes com o padrão americano."
+          ]
+        }
+      },
+      "message": "Estratégia TIPS 'expressoes_fixas' gerada com sucesso para unidade 'Unidade saudações em ingles para inici...'",
+      "timestamp": "2025-08-23T03:09:01.351173",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "sequence": 1
+      },
+      "next_suggested_actions": [
+        "Gerar assessments para finalizar",
+        "POST /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/assessments",
+        "Verificar estratégia aplicada",
+        "GET /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/tips",
+        "Analisar qualidade da estratégia",
+        "GET /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/tips/analysis"
+      ]
+    },
+    "qa": null,
+    "assessments": {
+      "success": true,
+      "data": {
+        "assessments": {
+          "activities": [
+            {
+              "type": "gap_fill",
+              "title": "Complete as Saudações em Inglês",
+              "instructions": "Leia cada frase e escolha a melhor opção para preencher a lacuna. Marque apenas UMA resposta por frase.",
+              "content": {
+                "sentences": [
+                  "_____! How are you?",
+                  "- How are you? - I'm fine, _____.",
+                  "It is 3:00 p.m. Say: \"_____\"",
+                  "Before going to bed we say \"_____\".",
+                  "- Nice to meet you! - _____",
+                  "I have to leave now. _____!",
+                  "It’s 7:00 p.m. and already dark. \"_____\""
+                ],
+                "options": [
+                  [
+                    "good morning",
+                    "good night",
+                    "goodbye"
+                  ],
+                  [
+                    "thank you",
+                    "goodbye",
+                    "good night"
+                  ],
+                  [
+                    "good afternoon",
+                    "good evening",
+                    "good night"
+                  ],
+                  [
+                    "good night",
+                    "see you later",
+                    "good morning"
+                  ],
+                  [
+                    "you're welcome",
+                    "goodbye",
+                    "thank you"
+                  ],
+                  [
+                    "see you later",
+                    "good evening",
+                    "good morning"
+                  ],
+                  [
+                    "good evening",
+                    "good night",
+                    "good afternoon"
+                  ]
+                ]
+              },
+              "answer_key": {
+                "1": "good morning",
+                "2": "thank you",
+                "3": "good afternoon",
+                "4": "good night",
+                "5": "you're welcome",
+                "6": "see you later",
+                "7": "good evening"
+              },
+              "estimated_time": 5,
+              "difficulty_level": "beginner",
+              "skills_assessed": [
+                "vocabulary_recognition",
+                "word_formation",
+                "context_application"
+              ],
+              "vocabulary_focus": [
+                "goodbye",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "good night"
+              ],
+              "pronunciation_focus": false,
+              "phonetic_elements": []
+            },
+            {
+              "type": "multiple_choice",
+              "title": "Friendly Greetings – A1 Multiple-Choice Practice",
+              "instructions": "Choose the best answer (a, b, c or d) for each question. Circle or mark only ONE answer.",
+              "content": {
+                "questions": [
+                  {
+                    "question": "1. You meet your teacher at 8:00 a.m. What do you say?",
+                    "options": [
+                      "a) Good night",
+                      "b) Good morning",
+                      "c) Goodbye",
+                      "d) See you later"
+                    ]
+                  },
+                  {
+                    "question": "2. It is 3:00 p.m. Which greeting is correct?",
+                    "options": [
+                      "a) Good afternoon",
+                      "b) Good evening",
+                      "c) Good night",
+                      "d) Take care"
+                    ]
+                  },
+                  {
+                    "question": "3. A friend says, “How are you?” What is a nice reply?",
+                    "options": [
+                      "a) Nice to meet you",
+                      "b) I’m fine, thank you",
+                      "c) Good evening",
+                      "d) Goodbye"
+                    ]
+                  },
+                  {
+                    "question": "4. You want to be polite after receiving help. What do you say?",
+                    "options": [
+                      "a) Thank you",
+                      "b) Good night",
+                      "c) See you later",
+                      "d) How are you?"
+                    ]
+                  },
+                  {
+                    "question": "5. Someone says, “Thank you.” What do you answer?",
+                    "options": [
+                      "a) Good afternoon",
+                      "b) You’re welcome",
+                      "c) Take care",
+                      "d) I’m fine"
+                    ]
+                  },
+                  {
+                    "question": "6. You finish talking with a friend and will meet tomorrow. Choose the best phrase:",
+                    "options": [
+                      "a) Good morning",
+                      "b) Nice to meet you",
+                      "c) See you later",
+                      "d) Good night"
+                    ]
+                  },
+                  {
+                    "question": "7. It is 10:30 p.m. and you are going to bed. Which phrase fits?",
+                    "options": [
+                      "a) Good evening",
+                      "b) Goodbye",
+                      "c) Good night",
+                      "d) How are you?"
+                    ]
+                  }
+                ]
+              },
+              "answer_key": {
+                "1": "b",
+                "2": "a",
+                "3": "b",
+                "4": "a",
+                "5": "b",
+                "6": "c",
+                "7": "c"
+              },
+              "estimated_time": 10,
+              "difficulty_level": "beginner",
+              "skills_assessed": [
+                "recognition_skills",
+                "discrimination",
+                "elimination_strategies"
+              ],
+              "vocabulary_focus": [
+                "goodbye",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "good night"
+              ],
+              "pronunciation_focus": false,
+              "phonetic_elements": []
+            }
+          ],
+          "selection_rationale": "As lacunas do gap_fill levam o aluno a produzir ativamente cada expressão-alvo no contexto, enquanto o multiple_choice reforça o mesmo léxico por reconhecimento e discriminação, tornando-as tarefas complementares de produção controlada e recepção. Ambas pertencem à lista de tipos subutilizados, elevam o score de balanceamento sem repetir formatos já usados e cobrem dois focos diferentes (cloze e seleção). Para o nível A1 e o tema “saudações”, exigem apenas identificação ou inserção de frases simples como “How are you?” ou “Good morning”, alinhando-se ao limite de 15 palavras e à estratégia de expressões fixas. Finalmente, alternar preenchimento de lacunas com questões objetivas amplia a variedade pedagógica, mantém o engajamento do iniciante e exercita estratégias distintas de memória (recall vs. recognition).",
+          "total_estimated_time": 15,
+          "skills_assessed": [
+            "vocabulary_recognition",
+            "elimination_strategies",
+            "context_application",
+            "recognition_skills",
+            "word_formation",
+            "discrimination"
+          ],
+          "balance_analysis": {
+            "current_distribution": {
+              "cloze_test": 0,
+              "gap_fill": 0,
+              "reordering": 0,
+              "transformation": 0,
+              "multiple_choice": 0,
+              "true_false": 0,
+              "matching": 0
+            },
+            "overused_types": [],
+            "underused_types": [
+              "cloze_test",
+              "gap_fill",
+              "reordering",
+              "transformation",
+              "multiple_choice",
+              "true_false",
+              "matching"
+            ],
+            "balance_score": 0.0,
+            "skill_diversity": 0.0,
+            "recommendations": [
+              "Introduzir pelo menos um exercício de multiple_choice para reconhecimento inicial de vocabulário de saudações (adequado ao nível A1).",
+              "Adicionar um gap_fill simples para reforçar o léxico (ex.: ‘Good ___, Mary!’).",
+              "Incluir um matching entre saudações e respostas apropriadas (‘How are you?’ ↔ ‘I’m fine, thanks.’) para promover associação semântica.",
+              "Utilizar um true_false curto com minidiálogos para aferir compreensão auditiva/leitura básica.",
+              "Programar um reordering de palavras (ex.: ‘are / you / how’) para trabalhar ordem de sentença em inglês.",
+              "Evitar repetir o mesmo tipo mais de duas vezes na sequência da unidade; buscar rotacionar os 7 tipos a cada nova lição para garantir progressão e variedade.",
+              "Monitorar constantemente se as instruções permanecem em linguagem simples e com exemplos modelo, mantendo a adequação A1."
+            ]
+          },
+          "underused_activities": [
+            "multiple_choice",
+            "gap_fill",
+            "matching",
+            "reordering"
+          ],
+          "complementary_pair": true
+        },
+        "generation_stats": {
+          "activities_generated": 2,
+          "assessment_types": [
+            "gap_fill",
+            "multiple_choice"
+          ],
+          "total_estimated_time": "15 min",
+          "skills_assessed": [
+            "vocabulary_recognition",
+            "elimination_strategies",
+            "context_application",
+            "recognition_skills",
+            "word_formation",
+            "discrimination"
+          ],
+          "processing_time": "50.22s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+          "previous_status": "assessments_pending",
+          "new_status": "completed",
+          "final_quality_score": 0.56,
+          "completion_message": "Unidade finalizada com sucesso!"
+        },
+        "rag_balancing": {
+          "used_assessments_analysis": {},
+          "selected_activities": [
+            "gap_fill",
+            "multiple_choice"
+          ],
+          "balance_rationale": "As lacunas do gap_fill levam o aluno a produzir ativamente cada expressão-alvo no contexto, enquanto o multiple_choice reforça o mesmo léxico por reconhecimento e discriminação, tornando-as tarefas complementares de produção controlada e recepção. Ambas pertencem à lista de tipos subutilizados, elevam o score de balanceamento sem repetir formatos já usados e cobrem dois focos diferentes (cloze e seleção). Para o nível A1 e o tema “saudações”, exigem apenas identificação ou inserção de frases simples como “How are you?” ou “Good morning”, alinhando-se ao limite de 15 palavras e à estratégia de expressões fixas. Finalmente, alternar preenchimento de lacunas com questões objetivas amplia a variedade pedagógica, mantém o engajamento do iniciante e exercita estratégias distintas de memória (recall vs. recognition).",
+          "underused_activities": [
+            "multiple_choice",
+            "gap_fill",
+            "matching",
+            "reordering"
+          ]
+        }
+      },
+      "message": "Assessments gerados com sucesso para unidade 'Unidade saudações em ingles para inici...' - Unidade COMPLETA!",
+      "timestamp": "2025-08-23T03:10:00.608210",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "sequence": 1
+      },
+      "next_suggested_actions": [
+        "Visualizar unidade completa",
+        "GET /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "Exportar para PDF",
+        "POST /api/v2/units/unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9/export",
+        "Criar próxima unidade no book",
+        "POST /api/v2/books/book_d0f976db_c48b_43d2_8f32_65f618e82ddf/units"
+      ]
+    },
+    "complete_content": {
+      "success": true,
+      "data": {
+        "unit_info": {
+          "id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+          "title": "Unidade saudações em ingles para inici...",
+          "context": "saudações em ingles para iniciantes",
+          "cefr_level": "A1",
+          "language_variant": "american_english",
+          "unit_type": "lexical_unit",
+          "status": "completed",
+          "sequence_order": 1,
+          "quality_score": 0.56
+        },
+        "hierarchy_context": {
+          "course_name": "curso de ingles metodo direto",
+          "book_name": "Fase 1",
+          "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+          "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf"
+        },
+        "generated_content": {
+          "main_aim": null,
+          "subsidiary_aims": [],
+          "vocabulary": {
+            "items": [
+              {
+                "word": "goodbye",
+                "example": "Goodbye, see you tomorrow!",
+                "phoneme": "/ɡʊdˈbaɪ/",
+                "definition": "adeus, tchau",
+                "word_class": "interjection",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 1,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "good morning",
+                "example": "Good morning! How was your night?",
+                "phoneme": "/ɡʊd ˈmɔrnɪŋ/",
+                "definition": "bom dia",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 3,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "good afternoon",
+                "example": "Good afternoon! How can I help you?",
+                "phoneme": "/ɡʊd ˌæftərˈnun/",
+                "definition": "boa tarde",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 4,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "good evening",
+                "example": "Good evening! Welcome to our event.",
+                "phoneme": "/ɡʊd ˈivnɪŋ/",
+                "definition": "boa noite (ao chegar)",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 4,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "good night",
+                "example": "Good night! Sleep well.",
+                "phoneme": "/ɡʊd naɪt/",
+                "definition": "boa noite (ao sair ou dormir)",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 2,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "how are you",
+                "example": "Hi, how are you today?",
+                "phoneme": "/haʊ ɑr ju/",
+                "definition": "como você está",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 4,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "i'm fine",
+                "example": "I'm fine, thank you for asking.",
+                "phoneme": "/aɪm faɪn/",
+                "definition": "estou bem",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 2,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "thank you",
+                "example": "Thank you for your help!",
+                "phoneme": "/ˈθæŋk ju/",
+                "definition": "obrigado",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 2,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "you're welcome",
+                "example": "You're welcome, anytime!",
+                "phoneme": "/jʊər ˈwɛlkəm/",
+                "definition": "de nada",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 4,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.8,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "nice to meet you",
+                "example": "It's nice to meet you, John.",
+                "phoneme": "/naɪs tə miːt ju/",
+                "definition": "prazer em conhecê-lo",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 5,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "see you later",
+                "example": "See you later, alligator!",
+                "phoneme": "/si ju ˈleɪtər/",
+                "definition": "até mais",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 4,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "take care",
+                "example": "Take care and drive safely!",
+                "phoneme": "/teɪk kɛr/",
+                "definition": "cuide-se",
+                "word_class": "phrase",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 3,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.8,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "bye",
+                "example": "Bye! Have a great day!",
+                "phoneme": "/baɪ/",
+                "definition": "tchau",
+                "word_class": "interjection",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "important",
+                "example": "I often use important in my daily conversations.",
+                "phoneme": "/important/",
+                "definition": "importante",
+                "word_class": "adjective",
+                "ipa_variant": "general_american",
+                "stress_pattern": null,
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.7,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "help",
+                "example": "I often use help in my daily conversations.",
+                "phoneme": "/help/",
+                "definition": "ajudar",
+                "word_class": "verb",
+                "ipa_variant": "general_american",
+                "stress_pattern": null,
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.7,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              }
+            ],
+            "total_count": 15,
+            "generated_at": "2025-08-23T03:07:19.762972",
+            "new_words_count": 13,
+            "phoneme_coverage": {
+              "coverage_score": 100,
+              "total_unique_phonemes": 31
+            },
+            "rag_context_used": {
+              "used_strategies": [],
+              "progression_level": "high_frequency_basic",
+              "taught_vocabulary": [],
+              "vocabulary_density": 0.0
+            },
+            "context_relevance": 1.0,
+            "progression_level": "high_frequency_basic",
+            "phonetic_complexity": "complex",
+            "pronunciation_variants": [
+              "american_english"
+            ],
+            "reinforcement_words_count": 0
+          },
+          "sentences": {
+            "sentences": [
+              {
+                "text": "```json\n{\n  \"sentences\": [\n    {\n      \"text\": \"Good morning you're welcome.",
+                "introduces_new": [
+                  "good morning",
+                  "you're welcome",
+                  "you're welcome"
+                ],
+                "vocabulary_used": [
+                  "good morning",
+                  "you're welcome",
+                  "you're welcome"
+                ],
+                "complexity_level": "simple",
+                "context_situation": "extracted_context_1",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"good morning\"],\n      \"context_situation\": \"greeting in the morning\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good morning\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'mor' in 'morning' see you later.",
+                "introduces_new": [
+                  "good morning",
+                  "see you later",
+                  "see you later"
+                ],
+                "vocabulary_used": [
+                  "good morning",
+                  "see you later",
+                  "see you later"
+                ],
+                "complexity_level": "simple",
+                "context_situation": "extracted_context_2",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good afternoon take care.",
+                "introduces_new": [
+                  "good afternoon",
+                  "take care",
+                  "take care"
+                ],
+                "vocabulary_used": [
+                  "good afternoon",
+                  "take care",
+                  "take care"
+                ],
+                "complexity_level": "simple",
+                "context_situation": "extracted_context_3",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "stress_pattern_practice"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"good afternoon\"],\n      \"context_situation\": \"greeting in the afternoon\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good afternoon\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'noon' in 'afternoon' important.",
+                "introduces_new": [
+                  "good afternoon",
+                  "important",
+                  "important"
+                ],
+                "vocabulary_used": [
+                  "good afternoon",
+                  "important",
+                  "important"
+                ],
+                "complexity_level": "simple",
+                "context_situation": "extracted_context_4",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "stress_pattern_practice"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good evening help.",
+                "introduces_new": [
+                  "good evening",
+                  "help",
+                  "help"
+                ],
+                "vocabulary_used": [
+                  "good evening",
+                  "help",
+                  "help"
+                ],
+                "complexity_level": "simple",
+                "context_situation": "extracted_context_5",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"good evening\"],\n      \"context_situation\": \"greeting in the evening\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good evening\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'eve' in 'evening'",
+                "introduces_new": [
+                  "good evening"
+                ],
+                "vocabulary_used": [
+                  "good evening"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_6",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Good night",
+                "introduces_new": [
+                  "good night"
+                ],
+                "vocabulary_used": [
+                  "good night"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_7",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"good night\"],\n      \"context_situation\": \"saying goodbye at night\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"good night\"],\n      \"phonetic_features\": [\"stress_pattern\"],\n      \"pronunciation_notes\": \"Emphasize the 'night'",
+                "introduces_new": [
+                  "goodbye",
+                  "good night",
+                  "bye"
+                ],
+                "vocabulary_used": [
+                  "goodbye",
+                  "good night",
+                  "bye"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_8",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 2,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"How are you",
+                "introduces_new": [
+                  "how are you"
+                ],
+                "vocabulary_used": [
+                  "how are you"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_9",
+                "phonetic_features": [
+                  "multisyllabic_focus"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"how are you\"],\n      \"context_situation\": \"asking about someone's well-being\",\n      \"complexity_level\": \"very_simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"how are you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'how' and 'are'",
+                "introduces_new": [
+                  "how are you"
+                ],
+                "vocabulary_used": [
+                  "how are you"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_10",
+                "phonetic_features": [
+                  "multisyllabic_focus"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"request\",\n      \"sentence_length\": 3,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"I'm fine, thank you",
+                "introduces_new": [
+                  "i'm fine",
+                  "thank you"
+                ],
+                "vocabulary_used": [
+                  "i'm fine",
+                  "thank you"
+                ],
+                "complexity_level": "complex",
+                "context_situation": "extracted_context_11",
+                "phonetic_features": [
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: θ, ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"i'm fine\", \"thank you\"],\n      \"context_situation\": \"responding to a greeting\",\n      \"complexity_level\": \"simple\",\n      \"reinforces_previous\": [\"how are you\"],\n      \"introduces_new\": [\"i'm fine\", \"thank you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'I'm' and 'fine'",
+                "introduces_new": [
+                  "how are you",
+                  "i'm fine",
+                  "thank you"
+                ],
+                "vocabulary_used": [
+                  "how are you",
+                  "i'm fine",
+                  "thank you"
+                ],
+                "complexity_level": "complex",
+                "context_situation": "extracted_context_12",
+                "phonetic_features": [
+                  "multisyllabic_focus",
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: θ, ŋ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"information\",\n      \"sentence_length\": 4,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Nice to meet you",
+                "introduces_new": [
+                  "nice to meet you"
+                ],
+                "vocabulary_used": [
+                  "nice to meet you"
+                ],
+                "complexity_level": "complex",
+                "context_situation": "extracted_context_13",
+                "phonetic_features": [
+                  "multisyllabic_focus"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"nice to meet you\"],\n      \"context_situation\": \"meeting someone for the first time\",\n      \"complexity_level\": \"simple\",\n      \"reinforces_previous\": [],\n      \"introduces_new\": [\"nice to meet you\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'to' and 'meet'",
+                "introduces_new": [
+                  "nice to meet you"
+                ],
+                "vocabulary_used": [
+                  "nice to meet you"
+                ],
+                "complexity_level": "complex",
+                "context_situation": "extracted_context_14",
+                "phonetic_features": [
+                  "multisyllabic_focus"
+                ],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"greeting\",\n      \"sentence_length\": 4,\n      \"grammatical_focus\": [\"present_simple\"]\n    },\n    {\n      \"text\": \"Goodbye",
+                "introduces_new": [
+                  "goodbye",
+                  "bye"
+                ],
+                "vocabulary_used": [
+                  "goodbye",
+                  "bye"
+                ],
+                "complexity_level": "complex",
+                "context_situation": "extracted_context_15",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              }
+            ],
+            "generated_at": "2025-08-23T03:07:49.420238",
+            "vocabulary_coverage": 1.0,
+            "contextual_coherence": 0.0,
+            "phonetic_progression": [
+              "Sentence 1: 1 phonetic elements, avg 3.0 syllables",
+              "Sentence 2: 1 phonetic elements, avg 3.0 syllables",
+              "Sentence 3: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 4: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 5: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 6: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 7: 1 phonetic elements, avg 2.0 syllables",
+              "Sentence 8: 3 phonetic elements, avg 1.3 syllables",
+              "Sentence 9: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 10: 1 phonetic elements, avg 4.0 syllables",
+              "Sentence 11: 2 phonetic elements, avg 2.0 syllables",
+              "Sentence 12: 3 phonetic elements, avg 2.7 syllables",
+              "Sentence 13: 1 phonetic elements, avg 5.0 syllables",
+              "Sentence 14: 1 phonetic elements, avg 5.0 syllables",
+              "Sentence 15: 2 phonetic elements, avg 1.0 syllables"
+            ],
+            "pronunciation_patterns": [
+              "Stress patterns: 2 types across sentences",
+              "Syllable complexity: avg 2.9, max 5",
+              "Vowel focus: 4 challenging vowel sounds",
+              "Consonant focus: 2 challenging consonants"
+            ],
+            "progression_appropriateness": 0.3333333333333333
+          },
+          "tips": {
+            "title": "TIP 4: Expressões Fixas",
+            "examples": [
+              "Exemplo 1: O professor utiliza uma imagem de uma manhã ensolarada para apresentar a expressão 'good morning'. Os alunos repetem a expressão, associando-a ao cenário apresentado. Esta atividade reforça tanto o vocabulário quanto a conexão entre imagem e significado.",
+              "Exemplo 2: Em uma simulação de diálogo, um aluno pergunta 'how are you?' e o colega responde usando 'i'm fine, thank you' e acrescentando 'you're welcome' se apropriado. Este exercício prática a troca natural de saudações e respostas, utilizando vocabulário cotidiano.",
+              "Exemplo 3: Durante um role play, os alunos praticam saudações e despedidas. Iniciam com 'good afternoon' ou 'good evening' em situações de chegada e fecham com 'goodbye' ou 'nice to meet you' durante a despedida, reforçando o uso contextualizado dessas expressões fixas."
+            ],
+            "strategy": "expressoes_fixas",
+            "explanation": "Esta estratégia permite que alunos iniciantes em inglês memorizem saudações e despedidas inteiras como blocos de linguagem, sem precisar construir frases palavra por palavra. Ao praticar expressões fixas, como 'good morning' ou 'how are you?', os alunos internalizam o ritmo, a entonação e os contextos de uso, o que facilita a comunicação natural em situações cotidianas, como encontros, diálogos e despedidas.",
+            "phonetic_focus": [
+              "Conexão e ligação entre palavras (linking): enfatize a fluidez natural ao unir palavras, como na junção de \"good\" e \"morning\", de maneira que não soe como duas palavras separadas.",
+              "Redução e schwa: identifique e pratique a redução de sons vocálicos, por exemplo, a redução do /ə/ em \"afternoon\" (/ˌæftərˈnun/), que é comum na fala rápida e natural do inglês americano.",
+              "Ritmo e entonação: trabalhe a cadência rítmica característica de expressões cotidianas, assegurando que o padrão de acentuação (stress) e a variação tonal estejam condizentes com o padrão americano."
+            ],
+            "memory_techniques": [
+              "Associação Visual: Relacione cada expressão com uma imagem marcante ou situação específica. Por exemplo, associe 'good night' a imagens de um céu estrelado ou da lua, o que ajuda os alunos a fixarem a expressão de maneira intuitiva.",
+              "Repetição Cíclica: Estabeleça rotinas diárias de cumprimentos e despedidas. Repetir as expressões em contextos variados, como em encontros simulados, ajuda a consolidar a memorização e promove a fluência no uso das expressões."
+            ],
+            "pronunciation_tips": [
+              "Pratique a transição suave entre as palavras, evitando pausas abruptas — por exemplo, em \"good morning\", faça uma ligação natural entre o final de \"good\" e o início de \"morning\".",
+              "Realize exercícios de shadowing (imitação) com áudios nativos para internalizar o ritmo e a entonação natural das expressões.",
+              "Use a repetição cíclica focada em expressões como um bloco único, enfatizando a sonoridade conjunta, para que os alunos memorizem os padrões fonéticos de forma intuitiva."
+            ],
+            "selection_rationale": "A estratégia \"expressoes_fixas\" é ideal para esse vocabulário, pois oferece aos alunos modelos diretos e constantes na comunicação de saudações, facilitando a memorização e uso prático das expressões do dia a dia. Ademais, por sua simplicidade, ela se adapta ao nível A1 ao permitir a assimilação gradual e balanceada das competências de fala, audição e leitura, estabelecendo uma base sólida para a comunicação em inglês.",
+            "vocabulary_coverage": [
+              "goodbye",
+              "good morning",
+              "good afternoon",
+              "good evening",
+              "good night",
+              "how are you",
+              "i'm fine",
+              "thank you",
+              "you're welcome",
+              "nice to meet you"
+            ],
+            "practice_suggestions": [
+              "Atividade de Flashcards: Crie cartões com imagens que representem situações (por exemplo, um sol nascente para 'good morning' e um pôr do sol para 'good night') e associe cada imagem à respectiva expressão. Os alunos podem praticar em pares, alternando entre a identificação visual e a verbalização das expressões.",
+              "Dramatização em Duplas ou Pequenos Grupos: Organize simulações de cenários de encontro (por exemplo, cumprimentos no início de uma aula ou reunião) e despedida. Incentive os alunos a usarem frases como 'how are you?', 'i'm fine', 'thank you' e 'nice to meet you' para reforçar as interações naturais."
+            ],
+            "complementary_strategies": [
+              "idiomas",
+              "chunks"
+            ]
+          },
+          "grammar": null,
+          "assessments": {
+            "activities": [
+              {
+                "type": "gap_fill",
+                "title": "Complete as Saudações em Inglês",
+                "content": {
+                  "options": [
+                    [
+                      "good morning",
+                      "good night",
+                      "goodbye"
+                    ],
+                    [
+                      "thank you",
+                      "goodbye",
+                      "good night"
+                    ],
+                    [
+                      "good afternoon",
+                      "good evening",
+                      "good night"
+                    ],
+                    [
+                      "good night",
+                      "see you later",
+                      "good morning"
+                    ],
+                    [
+                      "you're welcome",
+                      "goodbye",
+                      "thank you"
+                    ],
+                    [
+                      "see you later",
+                      "good evening",
+                      "good morning"
+                    ],
+                    [
+                      "good evening",
+                      "good night",
+                      "good afternoon"
+                    ]
+                  ],
+                  "sentences": [
+                    "_____! How are you?",
+                    "- How are you? - I'm fine, _____.",
+                    "It is 3:00 p.m. Say: \"_____\"",
+                    "Before going to bed we say \"_____\".",
+                    "- Nice to meet you! - _____",
+                    "I have to leave now. _____!",
+                    "It’s 7:00 p.m. and already dark. \"_____\""
+                  ]
+                },
+                "answer_key": {
+                  "1": "good morning",
+                  "2": "thank you",
+                  "3": "good afternoon",
+                  "4": "good night",
+                  "5": "you're welcome",
+                  "6": "see you later",
+                  "7": "good evening"
+                },
+                "instructions": "Leia cada frase e escolha a melhor opção para preencher a lacuna. Marque apenas UMA resposta por frase.",
+                "estimated_time": 5,
+                "skills_assessed": [
+                  "vocabulary_recognition",
+                  "word_formation",
+                  "context_application"
+                ],
+                "difficulty_level": "beginner",
+                "vocabulary_focus": [
+                  "goodbye",
+                  "good morning",
+                  "good afternoon",
+                  "good evening",
+                  "good night"
+                ],
+                "phonetic_elements": [],
+                "pronunciation_focus": false
+              },
+              {
+                "type": "multiple_choice",
+                "title": "Friendly Greetings – A1 Multiple-Choice Practice",
+                "content": {
+                  "questions": [
+                    {
+                      "options": [
+                        "a) Good night",
+                        "b) Good morning",
+                        "c) Goodbye",
+                        "d) See you later"
+                      ],
+                      "question": "1. You meet your teacher at 8:00 a.m. What do you say?"
+                    },
+                    {
+                      "options": [
+                        "a) Good afternoon",
+                        "b) Good evening",
+                        "c) Good night",
+                        "d) Take care"
+                      ],
+                      "question": "2. It is 3:00 p.m. Which greeting is correct?"
+                    },
+                    {
+                      "options": [
+                        "a) Nice to meet you",
+                        "b) I’m fine, thank you",
+                        "c) Good evening",
+                        "d) Goodbye"
+                      ],
+                      "question": "3. A friend says, “How are you?” What is a nice reply?"
+                    },
+                    {
+                      "options": [
+                        "a) Thank you",
+                        "b) Good night",
+                        "c) See you later",
+                        "d) How are you?"
+                      ],
+                      "question": "4. You want to be polite after receiving help. What do you say?"
+                    },
+                    {
+                      "options": [
+                        "a) Good afternoon",
+                        "b) You’re welcome",
+                        "c) Take care",
+                        "d) I’m fine"
+                      ],
+                      "question": "5. Someone says, “Thank you.” What do you answer?"
+                    },
+                    {
+                      "options": [
+                        "a) Good morning",
+                        "b) Nice to meet you",
+                        "c) See you later",
+                        "d) Good night"
+                      ],
+                      "question": "6. You finish talking with a friend and will meet tomorrow. Choose the best phrase:"
+                    },
+                    {
+                      "options": [
+                        "a) Good evening",
+                        "b) Goodbye",
+                        "c) Good night",
+                        "d) How are you?"
+                      ],
+                      "question": "7. It is 10:30 p.m. and you are going to bed. Which phrase fits?"
+                    }
+                  ]
+                },
+                "answer_key": {
+                  "1": "b",
+                  "2": "a",
+                  "3": "b",
+                  "4": "a",
+                  "5": "b",
+                  "6": "c",
+                  "7": "c"
+                },
+                "instructions": "Choose the best answer (a, b, c or d) for each question. Circle or mark only ONE answer.",
+                "estimated_time": 10,
+                "skills_assessed": [
+                  "recognition_skills",
+                  "discrimination",
+                  "elimination_strategies"
+                ],
+                "difficulty_level": "beginner",
+                "vocabulary_focus": [
+                  "goodbye",
+                  "good morning",
+                  "good afternoon",
+                  "good evening",
+                  "good night"
+                ],
+                "phonetic_elements": [],
+                "pronunciation_focus": false
+              }
+            ],
+            "skills_assessed": [
+              "vocabulary_recognition",
+              "elimination_strategies",
+              "context_application",
+              "recognition_skills",
+              "word_formation",
+              "discrimination"
+            ],
+            "balance_analysis": {
+              "balance_score": 0.0,
+              "overused_types": [],
+              "recommendations": [
+                "Introduzir pelo menos um exercício de multiple_choice para reconhecimento inicial de vocabulário de saudações (adequado ao nível A1).",
+                "Adicionar um gap_fill simples para reforçar o léxico (ex.: ‘Good ___, Mary!’).",
+                "Incluir um matching entre saudações e respostas apropriadas (‘How are you?’ ↔ ‘I’m fine, thanks.’) para promover associação semântica.",
+                "Utilizar um true_false curto com minidiálogos para aferir compreensão auditiva/leitura básica.",
+                "Programar um reordering de palavras (ex.: ‘are / you / how’) para trabalhar ordem de sentença em inglês.",
+                "Evitar repetir o mesmo tipo mais de duas vezes na sequência da unidade; buscar rotacionar os 7 tipos a cada nova lição para garantir progressão e variedade.",
+                "Monitorar constantemente se as instruções permanecem em linguagem simples e com exemplos modelo, mantendo a adequação A1."
+              ],
+              "skill_diversity": 0.0,
+              "underused_types": [
+                "cloze_test",
+                "gap_fill",
+                "reordering",
+                "transformation",
+                "multiple_choice",
+                "true_false",
+                "matching"
+              ],
+              "current_distribution": {
+                "gap_fill": 0,
+                "matching": 0,
+                "cloze_test": 0,
+                "reordering": 0,
+                "true_false": 0,
+                "transformation": 0,
+                "multiple_choice": 0
+              }
+            },
+            "complementary_pair": true,
+            "selection_rationale": "As lacunas do gap_fill levam o aluno a produzir ativamente cada expressão-alvo no contexto, enquanto o multiple_choice reforça o mesmo léxico por reconhecimento e discriminação, tornando-as tarefas complementares de produção controlada e recepção. Ambas pertencem à lista de tipos subutilizados, elevam o score de balanceamento sem repetir formatos já usados e cobrem dois focos diferentes (cloze e seleção). Para o nível A1 e o tema “saudações”, exigem apenas identificação ou inserção de frases simples como “How are you?” ou “Good morning”, alinhando-se ao limite de 15 palavras e à estratégia de expressões fixas. Finalmente, alternar preenchimento de lacunas com questões objetivas amplia a variedade pedagógica, mantém o engajamento do iniciante e exercita estratégias distintas de memória (recall vs. recognition).",
+            "total_estimated_time": 15,
+            "underused_activities": [
+              "multiple_choice",
+              "gap_fill",
+              "matching",
+              "reordering"
+            ]
+          },
+          "qa": null
+        },
+        "content_summary": {
+          "has_vocabulary": true,
+          "has_sentences": true,
+          "has_strategies": true,
+          "has_assessments": true,
+          "has_qa": false,
+          "completion_percentage": 100.0
+        },
+        "images": []
+      },
+      "message": "Conteúdo completo da unidade 'Unidade saudações em ingles para inici...'",
+      "timestamp": "2025-08-23T03:10:01.072018",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_93f16d88_4635_40ad_9143_d5eb4fa34fd9",
+        "sequence": 1
+      },
+      "next_suggested_actions": []
+    }
+  }
+}

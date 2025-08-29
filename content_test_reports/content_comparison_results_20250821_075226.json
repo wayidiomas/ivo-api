@@ -1,0 +1,1787 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-21T07:52:26.664682",
+    "base_url": "http://localhost:8000",
+    "total_tests": 17,
+    "successful_tests": 5,
+    "success_rate": 29.411764705882355,
+    "test_ids": {
+      "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+      "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+      "unit_no_image": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+      "unit_with_image": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7"
+    },
+    "rate_limiting": {
+      "enabled": true,
+      "limits": {
+        "default": 2.0,
+        "create_unit": 3.0,
+        "generate_content": 5.0,
+        "generate_vocabulary": 8.0,
+        "generate_sentences": 8.0,
+        "generate_tips": 8.0,
+        "generate_qa": 8.0,
+        "generate_assessments": 8.0
+      },
+      "purpose": "Evitar sobrecarga e respeitar limites da OpenAI API"
+    }
+  },
+  "comparison_stats": {
+    "no_image_tests": 8,
+    "no_image_success": 2,
+    "with_image_tests": 9,
+    "with_image_success": 3
+  },
+  "generated_content": {
+    "NO_IMAGE": {
+      "CONTEXT": [
+        {
+          "timestamp": "2025-08-21T07:48:12.153201",
+          "data": {
+            "success": true,
+            "data": {
+              "unit_data": {
+                "id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+                "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+                "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+                "sequence_order": 1,
+                "title": "Unidade Hotel reservations and check-i...",
+                "main_aim": null,
+                "subsidiary_aims": [],
+                "context": "Hotel reservations and check-in procedures. Learning how to book rooms, ask for amenities, and handle check-in/check-out processes in English.",
+                "cefr_level": "A1",
+                "language_variant": "american_english",
+                "unit_type": "lexical_unit",
+                "images": [],
+                "vocabulary": {
+                  "items": [
+                    {
+                      "word": "reservation",
+                      "example": "I have a reservation under the name John Smith.",
+                      "phoneme": "/ˌrɛz.ərˈveɪ.ʃən/",
+                      "definition": "reserva",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 4,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "room",
+                      "example": "We booked a double room for our stay.",
+                      "phoneme": "/ruːm/",
+                      "definition": "quarto",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "unstressed",
+                      "syllable_count": 1,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "check-in",
+                      "example": "You can do the check-in at the front desk.",
+                      "phoneme": "/ˈtʃɛkˌɪn/",
+                      "definition": "entrada",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "key",
+                      "example": "Here is your room key.",
+                      "phoneme": "/kiː/",
+                      "definition": "chave",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "unstressed",
+                      "syllable_count": 1,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "bathroom",
+                      "example": "The bathroom is equipped with a shower and a bathtub.",
+                      "phoneme": "/ˈbæθˌrum/",
+                      "definition": "banheiro",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "check-out",
+                      "example": "Check-out is at 11 AM.",
+                      "phoneme": "/ˈtʃɛkˌaʊt/",
+                      "definition": "saída",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "breakfast",
+                      "example": "Breakfast is served from 7 to 10 AM.",
+                      "phoneme": "/ˈbrɛkfəst/",
+                      "definition": "café da manhã",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "wi-fi",
+                      "example": "Wi-Fi is available in all rooms.",
+                      "phoneme": "/ˈwaɪˌfaɪ/",
+                      "definition": "Wi-Fi",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "reception",
+                      "example": "Please go to the reception to pick up your key.",
+                      "phoneme": "/rɪˈsɛpʃən/",
+                      "definition": "recepção",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 3,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "luggage",
+                      "example": "You can leave your luggage at the reception.",
+                      "phoneme": "/ˈlʌɡɪdʒ/",
+                      "definition": "bagagem",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 2,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "elevator",
+                      "example": "The elevator is to your right.",
+                      "phoneme": "/ˈɛləˌveɪtər/",
+                      "definition": "elevador",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 4,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "floor",
+                      "example": "Our room is on the fifth floor.",
+                      "phoneme": "/flɔːr/",
+                      "definition": "andar",
+                      "word_class": "noun",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "unstressed",
+                      "syllable_count": 1,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "single",
+                      "example": "I would like to book a single room, please.",
+                      "phoneme": "/ˈsɪŋɡl/",
+                      "definition": "solteiro (referindo-se a um quarto para uma pessoa)",
+                      "word_class": "adjective",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 1,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    },
+                    {
+                      "word": "double",
+                      "example": "We need a double room for two nights.",
+                      "phoneme": "/ˈdʌbəl/",
+                      "definition": "duplo (referindo-se a um quarto para duas pessoas)",
+                      "word_class": "adjective",
+                      "ipa_variant": "general_american",
+                      "stress_pattern": "primary_first",
+                      "syllable_count": 1,
+                      "frequency_level": "high",
+                      "is_reinforcement": false,
+                      "context_relevance": 1.0,
+                      "first_introduced_unit": null,
+                      "alternative_pronunciations": []
+                    }
+                  ],
+                  "total_count": 14,
+                  "generated_at": "2025-08-21T10:43:41.110654",
+                  "new_words_count": 14,
+                  "phoneme_coverage": {
+                    "coverage_score": 100,
+                    "total_unique_phonemes": 34
+                  },
+                  "rag_context_used": {
+                    "used_strategies": [],
+                    "progression_level": "high_frequency_basic",
+                    "taught_vocabulary": [],
+                    "vocabulary_density": 0.0
+                  },
+                  "context_relevance": 1.0,
+                  "progression_level": "high_frequency_basic",
+                  "phonetic_complexity": "complex",
+                  "pronunciation_variants": [
+                    "american_english"
+                  ],
+                  "reinforcement_words_count": 0
+                },
+                "sentences": null,
+                "tips": null,
+                "grammar": null,
+                "qa": null,
+                "assessments": null,
+                "strategies_used": [],
+                "assessments_used": [],
+                "vocabulary_taught": [
+                  "reservation",
+                  "room",
+                  "check-in",
+                  "key",
+                  "bathroom",
+                  "check-out",
+                  "breakfast",
+                  "wi-fi",
+                  "reception",
+                  "luggage",
+                  "elevator",
+                  "floor",
+                  "single",
+                  "double"
+                ],
+                "status": "sentences_pending",
+                "quality_score": null,
+                "checklist_completed": [],
+                "created_at": "2025-08-19T10:13:41.081249Z",
+                "updated_at": "2025-08-21T10:43:42.608634Z"
+              },
+              "hierarchy_context": {
+                "course": {
+                  "id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+                  "name": "Curso de Teste Automático",
+                  "language_variant": "american_english",
+                  "target_levels": [
+                    "A1",
+                    "A2",
+                    "B1"
+                  ]
+                },
+                "book": {
+                  "id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+                  "name": "Book de Teste A1",
+                  "target_level": "A1",
+                  "sequence_order": 1
+                },
+                "position": {
+                  "sequence_in_book": 1,
+                  "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3"
+                }
+              },
+              "content_status": {
+                "has_vocabulary": true,
+                "has_sentences": false,
+                "has_strategies": false,
+                "has_assessments": false,
+                "completion_percentage": 25.0,
+                "ready_for_generation": false
+              },
+              "progression_context": {
+                "vocabulary_progression": {
+                  "total_words": 0,
+                  "words": []
+                },
+                "strategy_distribution": {},
+                "assessment_balance": {},
+                "recommendations": [
+                  "Diversificar estratégias pedagógicas"
+                ],
+                "quality_metrics": {
+                  "vocabulary_diversity": 0.0,
+                  "strategy_diversity": 0.0
+                }
+              }
+            },
+            "message": "Unidade 'Unidade Hotel reservations and check-i...' completa",
+            "timestamp": "2025-08-21T10:48:23.091670",
+            "hierarchy_info": {
+              "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+              "sequence": 1
+            },
+            "next_suggested_actions": [
+              "POST /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/sentences",
+              "GET /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/vocabulary",
+              "GET /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/context",
+              "PUT /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3"
+            ]
+          }
+        },
+        {
+          "timestamp": "2025-08-21T07:48:14.493125",
+          "data": {
+            "success": true,
+            "data": {
+              "unit_info": {
+                "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+                "title": "Unidade Hotel reservations and check-i...",
+                "sequence_order": 1,
+                "unit_type": "lexical_unit",
+                "cefr_level": "A1",
+                "status": "sentences_pending"
+              },
+              "rag_context": {
+                "taught_vocabulary": {
+                  "total_words": 0,
+                  "words_sample": [],
+                  "vocabulary_density": 0.0
+                },
+                "used_strategies": {
+                  "strategies": [],
+                  "count": 0,
+                  "diversity_score": 0
+                },
+                "used_assessments": {
+                  "assessment_stats": {},
+                  "total_activities": 0
+                }
+              },
+              "precedent_units": [],
+              "recommendations": [
+                "Diversificar estratégias pedagógicas",
+                "Estratégias disponíveis: ['afixacao', 'substantivos_compostos', 'colocacoes']",
+                "Considerar análise fonética IPA para vocabulário",
+                "Incluir padrões de pronunciação no conteúdo"
+              ],
+              "progression_insights": {
+                "position_in_book": "1 de 5",
+                "vocabulary_growth_rate": 0.0,
+                "pedagogical_variety": 0,
+                "completion_momentum": 0.0
+              }
+            },
+            "message": "Contexto RAG para unidade 'Unidade Hotel reservations and check-i...'",
+            "timestamp": "2025-08-21T10:48:25.240745",
+            "hierarchy_info": {
+              "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+              "sequence": 1
+            },
+            "next_suggested_actions": []
+          }
+        }
+      ]
+    },
+    "WITH_IMAGE": {
+      "SETUP": [
+        {
+          "timestamp": "2025-08-21T07:48:10.918721",
+          "data": {
+            "success": true,
+            "data": {
+              "unit": {
+                "id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+                "title": "Unidade Restaurant dining experience w...",
+                "sequence_order": 5,
+                "status": "creating",
+                "context": "Restaurant dining experience with menu, ordering food, and payment",
+                "unit_type": "lexical_unit",
+                "cefr_level": "A1",
+                "language_variant": "american_english",
+                "images_count": 1
+              },
+              "hierarchy_context": {
+                "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+                "course_name": "Curso de Teste Automático",
+                "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+                "book_name": "Book de Teste A1",
+                "book_level": "A1",
+                "sequence_in_book": 5
+              },
+              "validation_info": {
+                "is_valid": true,
+                "warnings": [],
+                "suggestions": []
+              },
+              "images_processed": 1,
+              "ready_for_next_step": true
+            },
+            "message": "Unidade criada na sequência 5 do book 'Book de Teste A1'",
+            "timestamp": "2025-08-21T10:48:21.963667",
+            "hierarchy_info": {
+              "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+              "sequence": 5
+            },
+            "next_suggested_actions": [
+              "Gerar vocabulário com RAG e fonemas IPA",
+              "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/vocabulary",
+              "Ver contexto hierárquico RAG",
+              "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+              "Analisar imagens via MCP",
+              "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/analyze-images"
+            ]
+          }
+        }
+      ],
+      "CONTEXT": [
+        {
+          "timestamp": "2025-08-21T07:48:15.927655",
+          "data": {
+            "success": true,
+            "data": {
+              "unit_data": {
+                "id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+                "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+                "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+                "sequence_order": 5,
+                "title": "Unidade Restaurant dining experience w...",
+                "main_aim": null,
+                "subsidiary_aims": [],
+                "context": "Restaurant dining experience with menu, ordering food, and payment",
+                "cefr_level": "A1",
+                "language_variant": "american_english",
+                "unit_type": "lexical_unit",
+                "images": [
+                  {
+                    "size": 118,
+                    "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEklEQVR4nGP4DwAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJRU5ErkJggg==",
+                    "filename": "restaurant_scene.png",
+                    "is_primary": true,
+                    "description": "Primeira imagem - análise pendente",
+                    "content_type": "image/png"
+                  }
+                ],
+                "vocabulary": null,
+                "sentences": null,
+                "tips": null,
+                "grammar": null,
+                "qa": null,
+                "assessments": null,
+                "strategies_used": [],
+                "assessments_used": [],
+                "vocabulary_taught": [],
+                "status": "creating",
+                "quality_score": null,
+                "checklist_completed": [],
+                "created_at": "2025-08-21T10:48:21.685852Z",
+                "updated_at": "2025-08-21T10:48:22.112399Z"
+              },
+              "hierarchy_context": {
+                "course": {
+                  "id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+                  "name": "Curso de Teste Automático",
+                  "language_variant": "american_english",
+                  "target_levels": [
+                    "A1",
+                    "A2",
+                    "B1"
+                  ]
+                },
+                "book": {
+                  "id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+                  "name": "Book de Teste A1",
+                  "target_level": "A1",
+                  "sequence_order": 1
+                },
+                "position": {
+                  "sequence_in_book": 5,
+                  "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7"
+                }
+              },
+              "content_status": {
+                "has_vocabulary": false,
+                "has_sentences": false,
+                "has_strategies": false,
+                "has_assessments": false,
+                "completion_percentage": 0.0,
+                "ready_for_generation": true
+              },
+              "progression_context": {
+                "vocabulary_progression": {
+                  "total_words": 14,
+                  "words": [
+                    "bathroom",
+                    "breakfast",
+                    "check-in",
+                    "check-out",
+                    "double",
+                    "elevator",
+                    "floor",
+                    "key",
+                    "luggage",
+                    "reception"
+                  ]
+                },
+                "strategy_distribution": {},
+                "assessment_balance": {},
+                "recommendations": [
+                  "Diversificar estratégias pedagógicas"
+                ],
+                "quality_metrics": {
+                  "vocabulary_diversity": 1.0,
+                  "strategy_diversity": 0.0
+                }
+              }
+            },
+            "message": "Unidade 'Unidade Restaurant dining experience w...' completa",
+            "timestamp": "2025-08-21T10:48:26.555472",
+            "hierarchy_info": {
+              "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+              "sequence": 5
+            },
+            "next_suggested_actions": [
+              "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/vocabulary",
+              "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+              "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+              "PUT /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7"
+            ]
+          }
+        },
+        {
+          "timestamp": "2025-08-21T07:48:17.987483",
+          "data": {
+            "success": true,
+            "data": {
+              "unit_info": {
+                "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+                "title": "Unidade Restaurant dining experience w...",
+                "sequence_order": 5,
+                "unit_type": "lexical_unit",
+                "cefr_level": "A1",
+                "status": "creating"
+              },
+              "rag_context": {
+                "taught_vocabulary": {
+                  "total_words": 14,
+                  "words_sample": [
+                    "bathroom",
+                    "breakfast",
+                    "check-in",
+                    "check-out",
+                    "double",
+                    "elevator",
+                    "floor",
+                    "key",
+                    "luggage",
+                    "reception",
+                    "reservation",
+                    "room",
+                    "single",
+                    "wi-fi"
+                  ],
+                  "vocabulary_density": 2.8
+                },
+                "used_strategies": {
+                  "strategies": [],
+                  "count": 0,
+                  "diversity_score": 0
+                },
+                "used_assessments": {
+                  "assessment_stats": {},
+                  "total_activities": 0
+                }
+              },
+              "precedent_units": [
+                {
+                  "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+                  "title": "Unidade Hotel reservations and check-i...",
+                  "sequence": 1,
+                  "status": "sentences_pending",
+                  "vocabulary_count": 14,
+                  "strategies": [],
+                  "assessments": [],
+                  "quality_score": null
+                },
+                {
+                  "unit_id": "unit_0d2ae96c_762d_436e_897d_f38e56ca532f",
+                  "title": "Unidade Restaurant dining experience w...",
+                  "sequence": 2,
+                  "status": "creating",
+                  "vocabulary_count": 0,
+                  "strategies": [],
+                  "assessments": [],
+                  "quality_score": null
+                },
+                {
+                  "unit_id": "unit_f0fcce6a_b06b_4673_97d2_29299bd13aad",
+                  "title": "Unidade Restaurant dining experience w...",
+                  "sequence": 3,
+                  "status": "creating",
+                  "vocabulary_count": 0,
+                  "strategies": [],
+                  "assessments": [],
+                  "quality_score": null
+                },
+                {
+                  "unit_id": "unit_0cad2215_86be_4ed8_a43c_01a546f8e292",
+                  "title": "Unidade Restaurant dining experience w...",
+                  "sequence": 4,
+                  "status": "creating",
+                  "vocabulary_count": 0,
+                  "strategies": [],
+                  "assessments": [],
+                  "quality_score": null
+                }
+              ],
+              "recommendations": [
+                "Diversificar estratégias pedagógicas",
+                "Estratégias disponíveis: ['afixacao', 'substantivos_compostos', 'colocacoes']",
+                "Considerar análise fonética IPA para vocabulário",
+                "Incluir padrões de pronunciação no conteúdo"
+              ],
+              "progression_insights": {
+                "position_in_book": "5 de 5",
+                "vocabulary_growth_rate": 2.8,
+                "pedagogical_variety": 0,
+                "completion_momentum": 0.0
+              }
+            },
+            "message": "Contexto RAG para unidade 'Unidade Restaurant dining experience w...'",
+            "timestamp": "2025-08-21T10:48:28.444040",
+            "hierarchy_info": {
+              "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+              "sequence": 5
+            },
+            "next_suggested_actions": []
+          }
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "timestamp": "2025-08-21T07:48:07.636814",
+      "category": "SETUP (WITH_IMAGE)",
+      "endpoint": "/api/v2/books/book_2762e908_39a5_470b_8668_3b0f4026f2c1/units",
+      "method": "POST",
+      "status_code": 200,
+      "success": true,
+      "response_size": 1371,
+      "execution_time_ms": 3281.29,
+      "error": null,
+      "notes": "Criar unit COM imagem para teste",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": true,
+        "data": {
+          "unit": {
+            "id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+            "title": "Unidade Restaurant dining experience w...",
+            "sequence_order": 5,
+            "status": "creating",
+            "context": "Restaurant dining experience with menu, ordering food, and payment",
+            "unit_type": "lexical_unit",
+            "cefr_level": "A1",
+            "language_variant": "american_english",
+            "images_count": 1
+          },
+          "hierarchy_context": {
+            "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+            "course_name": "Curso de Teste Automático",
+            "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+            "book_name": "Book de Teste A1",
+            "book_level": "A1",
+            "sequence_in_book": 5
+          },
+          "validation_info": {
+            "is_valid": true,
+            "warnings": [],
+            "suggestions": []
+          },
+          "images_processed": 1,
+          "ready_for_next_step": true
+        },
+        "message": "Unidade criada na sequência 5 do book 'Book de Teste A1'",
+        "timestamp": "2025-08-21T10:48:21.963667",
+        "hierarchy_info": {
+          "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+          "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+          "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+          "sequence": 5
+        },
+        "next_suggested_actions": [
+          "Gerar vocabulário com RAG e fonemas IPA",
+          "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/vocabulary",
+          "Ver contexto hierárquico RAG",
+          "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+          "Analisar imagens via MCP",
+          "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/analyze-images"
+        ]
+      },
+      "response_preview": "{'success': True, 'data': {'unit': {'id': 'unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7', 'title': 'Unidade Restaurant dining experience w...', 'sequence..."
+    },
+    {
+      "timestamp": "2025-08-21T07:48:10.920394",
+      "category": "CONTEXT (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response_size": 7986,
+      "execution_time_ms": 1230.81,
+      "error": null,
+      "notes": "Unit SEM imagem - dados básicos",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": true,
+        "data": {
+          "unit_data": {
+            "id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+            "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+            "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+            "sequence_order": 1,
+            "title": "Unidade Hotel reservations and check-i...",
+            "main_aim": null,
+            "subsidiary_aims": [],
+            "context": "Hotel reservations and check-in procedures. Learning how to book rooms, ask for amenities, and handle check-in/check-out processes in English.",
+            "cefr_level": "A1",
+            "language_variant": "american_english",
+            "unit_type": "lexical_unit",
+            "images": [],
+            "vocabulary": {
+              "items": [
+                {
+                  "word": "reservation",
+                  "example": "I have a reservation under the name John Smith.",
+                  "phoneme": "/ˌrɛz.ərˈveɪ.ʃən/",
+                  "definition": "reserva",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 4,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "room",
+                  "example": "We booked a double room for our stay.",
+                  "phoneme": "/ruːm/",
+                  "definition": "quarto",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "unstressed",
+                  "syllable_count": 1,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "check-in",
+                  "example": "You can do the check-in at the front desk.",
+                  "phoneme": "/ˈtʃɛkˌɪn/",
+                  "definition": "entrada",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "key",
+                  "example": "Here is your room key.",
+                  "phoneme": "/kiː/",
+                  "definition": "chave",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "unstressed",
+                  "syllable_count": 1,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "bathroom",
+                  "example": "The bathroom is equipped with a shower and a bathtub.",
+                  "phoneme": "/ˈbæθˌrum/",
+                  "definition": "banheiro",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "check-out",
+                  "example": "Check-out is at 11 AM.",
+                  "phoneme": "/ˈtʃɛkˌaʊt/",
+                  "definition": "saída",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "breakfast",
+                  "example": "Breakfast is served from 7 to 10 AM.",
+                  "phoneme": "/ˈbrɛkfəst/",
+                  "definition": "café da manhã",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "wi-fi",
+                  "example": "Wi-Fi is available in all rooms.",
+                  "phoneme": "/ˈwaɪˌfaɪ/",
+                  "definition": "Wi-Fi",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "reception",
+                  "example": "Please go to the reception to pick up your key.",
+                  "phoneme": "/rɪˈsɛpʃən/",
+                  "definition": "recepção",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 3,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "luggage",
+                  "example": "You can leave your luggage at the reception.",
+                  "phoneme": "/ˈlʌɡɪdʒ/",
+                  "definition": "bagagem",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 2,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "elevator",
+                  "example": "The elevator is to your right.",
+                  "phoneme": "/ˈɛləˌveɪtər/",
+                  "definition": "elevador",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 4,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "floor",
+                  "example": "Our room is on the fifth floor.",
+                  "phoneme": "/flɔːr/",
+                  "definition": "andar",
+                  "word_class": "noun",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "unstressed",
+                  "syllable_count": 1,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "single",
+                  "example": "I would like to book a single room, please.",
+                  "phoneme": "/ˈsɪŋɡl/",
+                  "definition": "solteiro (referindo-se a um quarto para uma pessoa)",
+                  "word_class": "adjective",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 1,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                },
+                {
+                  "word": "double",
+                  "example": "We need a double room for two nights.",
+                  "phoneme": "/ˈdʌbəl/",
+                  "definition": "duplo (referindo-se a um quarto para duas pessoas)",
+                  "word_class": "adjective",
+                  "ipa_variant": "general_american",
+                  "stress_pattern": "primary_first",
+                  "syllable_count": 1,
+                  "frequency_level": "high",
+                  "is_reinforcement": false,
+                  "context_relevance": 1.0,
+                  "first_introduced_unit": null,
+                  "alternative_pronunciations": []
+                }
+              ],
+              "total_count": 14,
+              "generated_at": "2025-08-21T10:43:41.110654",
+              "new_words_count": 14,
+              "phoneme_coverage": {
+                "coverage_score": 100,
+                "total_unique_phonemes": 34
+              },
+              "rag_context_used": {
+                "used_strategies": [],
+                "progression_level": "high_frequency_basic",
+                "taught_vocabulary": [],
+                "vocabulary_density": 0.0
+              },
+              "context_relevance": 1.0,
+              "progression_level": "high_frequency_basic",
+              "phonetic_complexity": "complex",
+              "pronunciation_variants": [
+                "american_english"
+              ],
+              "reinforcement_words_count": 0
+            },
+            "sentences": null,
+            "tips": null,
+            "grammar": null,
+            "qa": null,
+            "assessments": null,
+            "strategies_used": [],
+            "assessments_used": [],
+            "vocabulary_taught": [
+              "reservation",
+              "room",
+              "check-in",
+              "key",
+              "bathroom",
+              "check-out",
+              "breakfast",
+              "wi-fi",
+              "reception",
+              "luggage",
+              "elevator",
+              "floor",
+              "single",
+              "double"
+            ],
+            "status": "sentences_pending",
+            "quality_score": null,
+            "checklist_completed": [],
+            "created_at": "2025-08-19T10:13:41.081249Z",
+            "updated_at": "2025-08-21T10:43:42.608634Z"
+          },
+          "hierarchy_context": {
+            "course": {
+              "id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "name": "Curso de Teste Automático",
+              "language_variant": "american_english",
+              "target_levels": [
+                "A1",
+                "A2",
+                "B1"
+              ]
+            },
+            "book": {
+              "id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "name": "Book de Teste A1",
+              "target_level": "A1",
+              "sequence_order": 1
+            },
+            "position": {
+              "sequence_in_book": 1,
+              "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3"
+            }
+          },
+          "content_status": {
+            "has_vocabulary": true,
+            "has_sentences": false,
+            "has_strategies": false,
+            "has_assessments": false,
+            "completion_percentage": 25.0,
+            "ready_for_generation": false
+          },
+          "progression_context": {
+            "vocabulary_progression": {
+              "total_words": 0,
+              "words": []
+            },
+            "strategy_distribution": {},
+            "assessment_balance": {},
+            "recommendations": [
+              "Diversificar estratégias pedagógicas"
+            ],
+            "quality_metrics": {
+              "vocabulary_diversity": 0.0,
+              "strategy_diversity": 0.0
+            }
+          }
+        },
+        "message": "Unidade 'Unidade Hotel reservations and check-i...' completa",
+        "timestamp": "2025-08-21T10:48:23.091670",
+        "hierarchy_info": {
+          "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+          "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+          "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+          "sequence": 1
+        },
+        "next_suggested_actions": [
+          "POST /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/sentences",
+          "GET /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/vocabulary",
+          "GET /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/context",
+          "PUT /api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3"
+        ]
+      },
+      "response_preview": "{'success': True, 'data': {'unit_data': {'id': 'unit_e7bbcdea_e580_461e_89d2_271750de7ba3', 'course_id': 'course_5e19fe18_c172_4f43_9c0a_202293325115'..."
+    },
+    {
+      "timestamp": "2025-08-21T07:48:12.922560",
+      "category": "CONTEXT (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/context",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response_size": 1203,
+      "execution_time_ms": 1570.02,
+      "error": null,
+      "notes": "Unit SEM imagem - contexto RAG",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": true,
+        "data": {
+          "unit_info": {
+            "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+            "title": "Unidade Hotel reservations and check-i...",
+            "sequence_order": 1,
+            "unit_type": "lexical_unit",
+            "cefr_level": "A1",
+            "status": "sentences_pending"
+          },
+          "rag_context": {
+            "taught_vocabulary": {
+              "total_words": 0,
+              "words_sample": [],
+              "vocabulary_density": 0.0
+            },
+            "used_strategies": {
+              "strategies": [],
+              "count": 0,
+              "diversity_score": 0
+            },
+            "used_assessments": {
+              "assessment_stats": {},
+              "total_activities": 0
+            }
+          },
+          "precedent_units": [],
+          "recommendations": [
+            "Diversificar estratégias pedagógicas",
+            "Estratégias disponíveis: ['afixacao', 'substantivos_compostos', 'colocacoes']",
+            "Considerar análise fonética IPA para vocabulário",
+            "Incluir padrões de pronunciação no conteúdo"
+          ],
+          "progression_insights": {
+            "position_in_book": "1 de 5",
+            "vocabulary_growth_rate": 0.0,
+            "pedagogical_variety": 0,
+            "completion_momentum": 0.0
+          }
+        },
+        "message": "Contexto RAG para unidade 'Unidade Hotel reservations and check-i...'",
+        "timestamp": "2025-08-21T10:48:25.240745",
+        "hierarchy_info": {
+          "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+          "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+          "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+          "sequence": 1
+        },
+        "next_suggested_actions": []
+      },
+      "response_preview": "{'success': True, 'data': {'unit_info': {'unit_id': 'unit_e7bbcdea_e580_461e_89d2_271750de7ba3', 'title': 'Unidade Hotel reservations and check-i...',..."
+    },
+    {
+      "timestamp": "2025-08-21T07:48:14.923641",
+      "category": "CONTEXT (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response_size": 2650,
+      "execution_time_ms": 1003.45,
+      "error": null,
+      "notes": "Unit COM imagem - dados básicos",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": true,
+        "data": {
+          "unit_data": {
+            "id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+            "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+            "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+            "sequence_order": 5,
+            "title": "Unidade Restaurant dining experience w...",
+            "main_aim": null,
+            "subsidiary_aims": [],
+            "context": "Restaurant dining experience with menu, ordering food, and payment",
+            "cefr_level": "A1",
+            "language_variant": "american_english",
+            "unit_type": "lexical_unit",
+            "images": [
+              {
+                "size": 118,
+                "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAEklEQVR4nGP4DwAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJRU5ErkJggg==",
+                "filename": "restaurant_scene.png",
+                "is_primary": true,
+                "description": "Primeira imagem - análise pendente",
+                "content_type": "image/png"
+              }
+            ],
+            "vocabulary": null,
+            "sentences": null,
+            "tips": null,
+            "grammar": null,
+            "qa": null,
+            "assessments": null,
+            "strategies_used": [],
+            "assessments_used": [],
+            "vocabulary_taught": [],
+            "status": "creating",
+            "quality_score": null,
+            "checklist_completed": [],
+            "created_at": "2025-08-21T10:48:21.685852Z",
+            "updated_at": "2025-08-21T10:48:22.112399Z"
+          },
+          "hierarchy_context": {
+            "course": {
+              "id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+              "name": "Curso de Teste Automático",
+              "language_variant": "american_english",
+              "target_levels": [
+                "A1",
+                "A2",
+                "B1"
+              ]
+            },
+            "book": {
+              "id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+              "name": "Book de Teste A1",
+              "target_level": "A1",
+              "sequence_order": 1
+            },
+            "position": {
+              "sequence_in_book": 5,
+              "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7"
+            }
+          },
+          "content_status": {
+            "has_vocabulary": false,
+            "has_sentences": false,
+            "has_strategies": false,
+            "has_assessments": false,
+            "completion_percentage": 0.0,
+            "ready_for_generation": true
+          },
+          "progression_context": {
+            "vocabulary_progression": {
+              "total_words": 14,
+              "words": [
+                "bathroom",
+                "breakfast",
+                "check-in",
+                "check-out",
+                "double",
+                "elevator",
+                "floor",
+                "key",
+                "luggage",
+                "reception"
+              ]
+            },
+            "strategy_distribution": {},
+            "assessment_balance": {},
+            "recommendations": [
+              "Diversificar estratégias pedagógicas"
+            ],
+            "quality_metrics": {
+              "vocabulary_diversity": 1.0,
+              "strategy_diversity": 0.0
+            }
+          }
+        },
+        "message": "Unidade 'Unidade Restaurant dining experience w...' completa",
+        "timestamp": "2025-08-21T10:48:26.555472",
+        "hierarchy_info": {
+          "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+          "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+          "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+          "sequence": 5
+        },
+        "next_suggested_actions": [
+          "POST /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/vocabulary",
+          "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+          "GET /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+          "PUT /api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7"
+        ]
+      },
+      "response_preview": "{'success': True, 'data': {'unit_data': {'id': 'unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7', 'course_id': 'course_5e19fe18_c172_4f43_9c0a_202293325115'..."
+    },
+    {
+      "timestamp": "2025-08-21T07:48:16.925327",
+      "category": "CONTEXT (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/context",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response_size": 2207,
+      "execution_time_ms": 1061.61,
+      "error": null,
+      "notes": "Unit COM imagem - contexto RAG",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": true,
+        "data": {
+          "unit_info": {
+            "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+            "title": "Unidade Restaurant dining experience w...",
+            "sequence_order": 5,
+            "unit_type": "lexical_unit",
+            "cefr_level": "A1",
+            "status": "creating"
+          },
+          "rag_context": {
+            "taught_vocabulary": {
+              "total_words": 14,
+              "words_sample": [
+                "bathroom",
+                "breakfast",
+                "check-in",
+                "check-out",
+                "double",
+                "elevator",
+                "floor",
+                "key",
+                "luggage",
+                "reception",
+                "reservation",
+                "room",
+                "single",
+                "wi-fi"
+              ],
+              "vocabulary_density": 2.8
+            },
+            "used_strategies": {
+              "strategies": [],
+              "count": 0,
+              "diversity_score": 0
+            },
+            "used_assessments": {
+              "assessment_stats": {},
+              "total_activities": 0
+            }
+          },
+          "precedent_units": [
+            {
+              "unit_id": "unit_e7bbcdea_e580_461e_89d2_271750de7ba3",
+              "title": "Unidade Hotel reservations and check-i...",
+              "sequence": 1,
+              "status": "sentences_pending",
+              "vocabulary_count": 14,
+              "strategies": [],
+              "assessments": [],
+              "quality_score": null
+            },
+            {
+              "unit_id": "unit_0d2ae96c_762d_436e_897d_f38e56ca532f",
+              "title": "Unidade Restaurant dining experience w...",
+              "sequence": 2,
+              "status": "creating",
+              "vocabulary_count": 0,
+              "strategies": [],
+              "assessments": [],
+              "quality_score": null
+            },
+            {
+              "unit_id": "unit_f0fcce6a_b06b_4673_97d2_29299bd13aad",
+              "title": "Unidade Restaurant dining experience w...",
+              "sequence": 3,
+              "status": "creating",
+              "vocabulary_count": 0,
+              "strategies": [],
+              "assessments": [],
+              "quality_score": null
+            },
+            {
+              "unit_id": "unit_0cad2215_86be_4ed8_a43c_01a546f8e292",
+              "title": "Unidade Restaurant dining experience w...",
+              "sequence": 4,
+              "status": "creating",
+              "vocabulary_count": 0,
+              "strategies": [],
+              "assessments": [],
+              "quality_score": null
+            }
+          ],
+          "recommendations": [
+            "Diversificar estratégias pedagógicas",
+            "Estratégias disponíveis: ['afixacao', 'substantivos_compostos', 'colocacoes']",
+            "Considerar análise fonética IPA para vocabulário",
+            "Incluir padrões de pronunciação no conteúdo"
+          ],
+          "progression_insights": {
+            "position_in_book": "5 de 5",
+            "vocabulary_growth_rate": 2.8,
+            "pedagogical_variety": 0,
+            "completion_momentum": 0.0
+          }
+        },
+        "message": "Contexto RAG para unidade 'Unidade Restaurant dining experience w...'",
+        "timestamp": "2025-08-21T10:48:28.444040",
+        "hierarchy_info": {
+          "course_id": "course_5e19fe18_c172_4f43_9c0a_202293325115",
+          "book_id": "book_2762e908_39a5_470b_8668_3b0f4026f2c1",
+          "unit_id": "unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7",
+          "sequence": 5
+        },
+        "next_suggested_actions": []
+      },
+      "response_preview": "{'success': True, 'data': {'unit_info': {'unit_id': 'unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7', 'title': 'Unidade Restaurant dining experience w...',..."
+    },
+    {
+      "timestamp": "2025-08-21T07:48:24.925971",
+      "category": "VOCABULARY (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/vocabulary",
+      "method": "POST",
+      "status_code": 0,
+      "success": false,
+      "response_size": 0,
+      "execution_time_ms": 60008.87,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=60)",
+      "notes": "Vocabulário baseado em contexto (hotel)",
+      "unit_type": "NO_IMAGE",
+      "response_data": {},
+      "response_preview": "Error: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=60)"
+    },
+    {
+      "timestamp": "2025-08-21T07:49:24.935838",
+      "category": "VOCABULARY (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/vocabulary",
+      "method": "POST",
+      "status_code": 0,
+      "success": false,
+      "response_size": 0,
+      "execution_time_ms": 60011.64,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=60)",
+      "notes": "Vocabulário baseado em imagem (restaurante)",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {},
+      "response_preview": "Error: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=60)"
+    },
+    {
+      "timestamp": "2025-08-21T07:50:24.949480",
+      "category": "SENTENCES (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/sentences",
+      "method": "POST",
+      "status_code": 500,
+      "success": false,
+      "response_size": 99,
+      "execution_time_ms": 34391.23,
+      "error": "Failed",
+      "notes": "Sentenças contextuais (hotel procedures)",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "detail": "Erro interno na geração de sentences: Object of type datetime is not JSON serializable"
+      },
+      "response_preview": "{'detail': 'Erro interno na geração de sentences: Object of type datetime is not JSON serializable'}..."
+    },
+    {
+      "timestamp": "2025-08-21T07:50:59.341708",
+      "category": "SENTENCES (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/sentences",
+      "method": "POST",
+      "status_code": 500,
+      "success": false,
+      "response_size": 99,
+      "execution_time_ms": 43247.48,
+      "error": "Failed",
+      "notes": "Sentenças visuais (restaurant scene)",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "detail": "Erro interno na geração de sentences: Object of type datetime is not JSON serializable"
+      },
+      "response_preview": "{'detail': 'Erro interno na geração de sentences: Object of type datetime is not JSON serializable'}..."
+    },
+    {
+      "timestamp": "2025-08-21T07:51:42.592191",
+      "category": "TIPS (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/tips",
+      "method": "POST",
+      "status_code": 400,
+      "success": false,
+      "response_size": 768,
+      "execution_time_ms": 276.1,
+      "error": "Failed",
+      "notes": "TIPS para contexto de hotel",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "BAD_REQUEST",
+        "message": "Requisição inválida",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/tips",
+          "method": "POST",
+          "request_id": "a17eeb89-07ea-4bc9-ac69-6427b003e9a8",
+          "error_description": "400: Unidade deve ter sentences antes de gerar TIPS."
+        },
+        "suggestions": [
+          "Verifique a estrutura da requisição",
+          "Confirme que a hierarquia está correta",
+          "Para uploads: máximo 10MB por imagem",
+          "Consulte a documentação em /docs"
+        ],
+        "hierarchical_requirements": {
+          "course_creation": "Requer name, target_levels, language_variant",
+          "book_creation": "Requer course_id válido e target_level",
+          "unit_creation": "Requer book_id válido e pelo menos 1 imagem",
+          "content_generation": "Requer unit_id válido e status adequado"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'BAD_REQUEST', 'message': 'Requisição inválida', 'details': {'path': 'http://localhost:8000/api/v2/units/unit_e7bbcde..."
+    },
+    {
+      "timestamp": "2025-08-21T07:51:50.593460",
+      "category": "TIPS (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/tips",
+      "method": "POST",
+      "status_code": 400,
+      "success": false,
+      "response_size": 768,
+      "execution_time_ms": 275.65,
+      "error": "Failed",
+      "notes": "TIPS para contexto de restaurante",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "BAD_REQUEST",
+        "message": "Requisição inválida",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/tips",
+          "method": "POST",
+          "request_id": "e3bc69b9-7597-4429-b661-8344a6c668cd",
+          "error_description": "400: Unidade deve ter sentences antes de gerar TIPS."
+        },
+        "suggestions": [
+          "Verifique a estrutura da requisição",
+          "Confirme que a hierarquia está correta",
+          "Para uploads: máximo 10MB por imagem",
+          "Consulte a documentação em /docs"
+        ],
+        "hierarchical_requirements": {
+          "course_creation": "Requer name, target_levels, language_variant",
+          "book_creation": "Requer course_id válido e target_level",
+          "unit_creation": "Requer book_id válido e pelo menos 1 imagem",
+          "content_generation": "Requer unit_id válido e status adequado"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'BAD_REQUEST', 'message': 'Requisição inválida', 'details': {'path': 'http://localhost:8000/api/v2/units/unit_94517b1..."
+    },
+    {
+      "timestamp": "2025-08-21T07:51:58.594708",
+      "category": "QA (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/qa",
+      "method": "POST",
+      "status_code": 400,
+      "success": false,
+      "response_size": 792,
+      "execution_time_ms": 260.53,
+      "error": "Failed",
+      "notes": "Q&A sobre hotel procedures",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "BAD_REQUEST",
+        "message": "Requisição inválida",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/qa",
+          "method": "POST",
+          "request_id": "d77169ef-b69e-4829-9fb1-993be37a17e9",
+          "error_description": "400: Unidade deve ter vocabulário, sentences e estratégias antes de gerar Q&A."
+        },
+        "suggestions": [
+          "Verifique a estrutura da requisição",
+          "Confirme que a hierarquia está correta",
+          "Para uploads: máximo 10MB por imagem",
+          "Consulte a documentação em /docs"
+        ],
+        "hierarchical_requirements": {
+          "course_creation": "Requer name, target_levels, language_variant",
+          "book_creation": "Requer course_id válido e target_level",
+          "unit_creation": "Requer book_id válido e pelo menos 1 imagem",
+          "content_generation": "Requer unit_id válido e status adequado"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'BAD_REQUEST', 'message': 'Requisição inválida', 'details': {'path': 'http://localhost:8000/api/v2/units/unit_e7bbcde..."
+    },
+    {
+      "timestamp": "2025-08-21T07:52:06.596173",
+      "category": "QA (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/qa",
+      "method": "POST",
+      "status_code": 429,
+      "success": false,
+      "response_size": 728,
+      "execution_time_ms": 20.0,
+      "error": "Failed",
+      "notes": "Q&A sobre restaurant scene",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "RATE_LIMIT_EXCEEDED",
+        "message": "Limite de requisições excedido",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/qa",
+          "method": "POST",
+          "storage_type": "in-memory",
+          "retry_after": 60,
+          "request_id": "27c7060c-5bd6-494c-ab3a-ae69021b47bf"
+        },
+        "suggestions": [
+          "Aguarde 60 segundos antes de tentar novamente",
+          "Considere implementar cache local para reduzir requests",
+          "Verifique se não há requests desnecessários em loop",
+          "Para operações em lote, use paginação adequada"
+        ],
+        "rate_limit_info": {
+          "check_limits": "GET /system/rate-limits para ver limites específicos",
+          "storage": "In-memory (Redis migration available)",
+          "windows": "Janelas deslizantes com cleanup automático"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'RATE_LIMIT_EXCEEDED', 'message': 'Limite de requisições excedido', 'details': {'path': 'http://localhost:8000/api/v2..."
+    },
+    {
+      "timestamp": "2025-08-21T07:52:14.597119",
+      "category": "ASSESSMENTS (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/assessments",
+      "method": "POST",
+      "status_code": 400,
+      "success": false,
+      "response_size": 782,
+      "execution_time_ms": 429.22,
+      "error": "Failed",
+      "notes": "Assessments para hotel context",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "BAD_REQUEST",
+        "message": "Requisição inválida",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/assessments",
+          "method": "POST",
+          "request_id": "aff088aa-c2d6-4104-8a17-3ef1e79d5921",
+          "error_description": "400: Unidade deve ter sentences antes de gerar assessments."
+        },
+        "suggestions": [
+          "Verifique a estrutura da requisição",
+          "Confirme que a hierarquia está correta",
+          "Para uploads: máximo 10MB por imagem",
+          "Consulte a documentação em /docs"
+        ],
+        "hierarchical_requirements": {
+          "course_creation": "Requer name, target_levels, language_variant",
+          "book_creation": "Requer course_id válido e target_level",
+          "unit_creation": "Requer book_id válido e pelo menos 1 imagem",
+          "content_generation": "Requer unit_id válido e status adequado"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'BAD_REQUEST', 'message': 'Requisição inválida', 'details': {'path': 'http://localhost:8000/api/v2/units/unit_e7bbcde..."
+    },
+    {
+      "timestamp": "2025-08-21T07:52:22.599328",
+      "category": "ASSESSMENTS (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/assessments",
+      "method": "POST",
+      "status_code": 429,
+      "success": false,
+      "response_size": 51,
+      "execution_time_ms": 13.0,
+      "error": "Failed",
+      "notes": "Assessments para restaurant scene",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "error": "Rate limit exceeded",
+        "retry_after": 60
+      },
+      "response_preview": "{'error': 'Rate limit exceeded', 'retry_after': 60}..."
+    },
+    {
+      "timestamp": "2025-08-21T07:52:24.601087",
+      "category": "COMPARISON (NO_IMAGE)",
+      "endpoint": "/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/complete-content",
+      "method": "GET",
+      "status_code": 404,
+      "success": false,
+      "response_size": 727,
+      "execution_time_ms": 16.99,
+      "error": "Failed",
+      "notes": "Conteúdo completo - baseado em contexto",
+      "unit_type": "NO_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "RESOURCE_NOT_FOUND",
+        "message": "Recurso não encontrado",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_e7bbcdea_e580_461e_89d2_271750de7ba3/complete-content",
+          "method": "GET",
+          "request_id": "763b8285-e43d-4166-b6ce-a53e057678ac",
+          "system_status": true
+        },
+        "suggestions": [
+          "Verifique se o ID está correto",
+          "Confirme que o recurso existe na hierarquia Course→Book→Unit",
+          "Consulte /docs para endpoints disponíveis",
+          "Verifique /api/overview para estrutura da API"
+        ],
+        "hierarchical_help": {
+          "course_operations": "GET /api/v2/courses para listar cursos",
+          "book_operations": "GET /api/v2/courses/{course_id}/books para books do curso",
+          "unit_operations": "GET /api/v2/books/{book_id}/units para units do book"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'RESOURCE_NOT_FOUND', 'message': 'Recurso não encontrado', 'details': {'path': 'http://localhost:8000/api/v2/units/un..."
+    },
+    {
+      "timestamp": "2025-08-21T07:52:26.604086",
+      "category": "COMPARISON (WITH_IMAGE)",
+      "endpoint": "/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/complete-content",
+      "method": "GET",
+      "status_code": 404,
+      "success": false,
+      "response_size": 727,
+      "execution_time_ms": 56.59,
+      "error": "Failed",
+      "notes": "Conteúdo completo - baseado em imagem",
+      "unit_type": "WITH_IMAGE",
+      "response_data": {
+        "success": false,
+        "error_code": "RESOURCE_NOT_FOUND",
+        "message": "Recurso não encontrado",
+        "details": {
+          "path": "http://localhost:8000/api/v2/units/unit_94517b1a_cd3e_402a_81ea_ebc8cc711ed7/complete-content",
+          "method": "GET",
+          "request_id": "0547ecb2-7455-456c-89ff-a2c78e412143",
+          "system_status": true
+        },
+        "suggestions": [
+          "Verifique se o ID está correto",
+          "Confirme que o recurso existe na hierarquia Course→Book→Unit",
+          "Consulte /docs para endpoints disponíveis",
+          "Verifique /api/overview para estrutura da API"
+        ],
+        "hierarchical_help": {
+          "course_operations": "GET /api/v2/courses para listar cursos",
+          "book_operations": "GET /api/v2/courses/{course_id}/books para books do curso",
+          "unit_operations": "GET /api/v2/books/{book_id}/units para units do book"
+        }
+      },
+      "response_preview": "{'success': False, 'error_code': 'RESOURCE_NOT_FOUND', 'message': 'Recurso não encontrado', 'details': {'path': 'http://localhost:8000/api/v2/units/un..."
+    }
+  ]
+}

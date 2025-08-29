@@ -1,0 +1,1659 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-23T00:31:26.724597",
+    "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+    "configuration": {
+      "unit_name": "uso de this e that",
+      "context": "como usar thisxthat e thesexthose",
+      "cefr_level": "B1",
+      "language_variant": "american_english",
+      "unit_type": "grammar_unit",
+      "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+      "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+      "vocab_count": 12,
+      "vocab_difficulty": "intermediate",
+      "sentences_count": 12,
+      "sentences_complexity": "simple",
+      "tips_count": 3,
+      "qa_count": 4,
+      "assessments_count": 3,
+      "use_image": false,
+      "use_webhooks": false,
+      "include_aim_detector": false,
+      "include_l1_interference": false
+    },
+    "errors": [
+      "/api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/qa: HTTP 500: {\"detail\":\"Erro interno na geração de Q&A: 'str' object has no attribute 'get'\"}"
+    ]
+  },
+  "generated_content": {
+    "vocabulary": {
+      "success": true,
+      "data": {
+        "vocabulary": {
+          "items": [
+            {
+              "word": "book",
+              "phoneme": "/bʊk/",
+              "definition": "livro",
+              "example": "This book is very interesting.",
+              "word_class": "noun",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "chair",
+              "phoneme": "/tʃɛr/",
+              "definition": "cadeira",
+              "example": "That chair is comfortable.",
+              "word_class": "noun",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "car",
+              "phoneme": "/kɑr/",
+              "definition": "carro",
+              "example": "Is that your car over there?",
+              "word_class": "noun",
+              "frequency_level": "very_high",
+              "context_relevance": 1.0,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "pen",
+              "phoneme": "/pɛn/",
+              "definition": "caneta",
+              "example": "This is my favorite pen.",
+              "word_class": "noun",
+              "frequency_level": "high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "building",
+              "phoneme": "/ˈbɪldɪŋ/",
+              "definition": "prédio",
+              "example": "That building is new.",
+              "word_class": "noun",
+              "frequency_level": "medium",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "shoes",
+              "phoneme": "/ʃuz/",
+              "definition": "sapatos",
+              "example": "These shoes are too big for me.",
+              "word_class": "noun",
+              "frequency_level": "high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "mountains",
+              "phoneme": "/ˈmaʊntənz/",
+              "definition": "montanhas",
+              "example": "Those mountains are beautiful.",
+              "word_class": "noun",
+              "frequency_level": "medium",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "desk",
+              "phoneme": "/dɛsk/",
+              "definition": "escrivaninha",
+              "example": "This desk is made of wood.",
+              "word_class": "noun",
+              "frequency_level": "medium",
+              "context_relevance": 0.8,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "unstressed",
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "window",
+              "phoneme": "/ˈwɪndoʊ/",
+              "definition": "janela",
+              "example": "That window is open.",
+              "word_class": "noun",
+              "frequency_level": "high",
+              "context_relevance": 0.9,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": "primary_first",
+              "syllable_count": 2,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "important",
+              "phoneme": "/important/",
+              "definition": "importante",
+              "example": "I often use important in my daily conversations.",
+              "word_class": "adjective",
+              "frequency_level": "high",
+              "context_relevance": 0.7,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": null,
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "help",
+              "phoneme": "/help/",
+              "definition": "ajudar",
+              "example": "I often use help in my daily conversations.",
+              "word_class": "verb",
+              "frequency_level": "high",
+              "context_relevance": 0.7,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": null,
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            },
+            {
+              "word": "time",
+              "phoneme": "/time/",
+              "definition": "tempo",
+              "example": "I often use time in my daily conversations.",
+              "word_class": "noun",
+              "frequency_level": "high",
+              "context_relevance": 0.7,
+              "is_reinforcement": false,
+              "first_introduced_unit": null,
+              "ipa_variant": "general_american",
+              "stress_pattern": null,
+              "syllable_count": 1,
+              "alternative_pronunciations": []
+            }
+          ],
+          "total_count": 12,
+          "context_relevance": 0.8,
+          "new_words_count": 9,
+          "reinforcement_words_count": 0,
+          "rag_context_used": {
+            "taught_vocabulary": [
+              "bye",
+              "good afternoon",
+              "good evening",
+              "good morning",
+              "good night",
+              "goodbye",
+              "help",
+              "how are you",
+              "i'm fine",
+              "important",
+              "nice to meet you",
+              "see you later",
+              "take care",
+              "thank you",
+              "you're welcome"
+            ],
+            "used_strategies": [
+              "expressoes_fixas"
+            ],
+            "progression_level": "high_frequency_basic",
+            "vocabulary_density": 7.5
+          },
+          "progression_level": "high_frequency_basic",
+          "phoneme_coverage": {
+            "total_unique_phonemes": 23,
+            "coverage_score": 76
+          },
+          "pronunciation_variants": [
+            "american_english"
+          ],
+          "phonetic_complexity": "complex",
+          "generated_at": "2025-08-23T03:28:59.201198"
+        },
+        "generation_stats": {
+          "total_words": 12,
+          "new_words": 9,
+          "reinforcement_words": 0,
+          "context_relevance": "80.0%",
+          "processing_time": "23.55s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+          "previous_status": "creating",
+          "new_status": "sentences_pending",
+          "next_step": "Gerar sentences conectadas ao vocabulário"
+        },
+        "rag_context_used": {
+          "taught_vocabulary_count": 15,
+          "avoided_repetitions": 10,
+          "progression_level": "high_frequency_basic",
+          "images_analyzed": 0
+        },
+        "migration_info": {
+          "images_analyzed": 0,
+          "service_analysis_success": false,
+          "vocabulary_from_images": 0,
+          "migration_status": "✅ MCP → Service migration completed successfully"
+        }
+      },
+      "message": "Vocabulário gerado com sucesso para unidade 'Unidade como usar thisxthat e thesexth...' (service integrado)",
+      "timestamp": "2025-08-23T03:29:00.817315",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "sequence": 2
+      },
+      "next_suggested_actions": [
+        "Gerar sentences conectadas",
+        "POST /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/sentences",
+        "Verificar contexto RAG atualizado",
+        "GET /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/context"
+      ]
+    },
+    "sentences": {
+      "success": true,
+      "data": {
+        "sentences": {
+          "sentences": [
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"book\", \"desk\", \"pen\", \"chair\"],\n      \"context_situation\": \"Identifying the location of objects using this and that",
+              "vocabulary_used": [
+                "book",
+                "chair",
+                "pen",
+                "desk"
+              ],
+              "context_situation": "extracted_context_2",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "book",
+                "chair",
+                "pen",
+                "desk"
+              ],
+              "phonetic_features": [
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ʃ"
+            },
+            {
+              "text": "```json\n{\n  \"sentences\": [\n    {\n      \"text\": \"This book is on the desk, but that pen is on the chair",
+              "vocabulary_used": [
+                "book",
+                "chair",
+                "pen",
+                "desk"
+              ],
+              "context_situation": "extracted_context_1",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "book",
+                "chair",
+                "pen",
+                "desk"
+              ],
+              "phonetic_features": [
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ʃ"
+            },
+            {
+              "text": "\",\n      \"complexity_level\": \"complex\",\n      \"reinforces_previous\": [\"help\"],\n      \"introduces_new\": [\"window\", \"desk\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'this window' and emphasize 'however' to show contrast",
+              "vocabulary_used": [
+                "desk",
+                "window",
+                "help"
+              ],
+              "context_situation": "extracted_context_12",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "help"
+              ],
+              "introduces_new": [
+                "desk",
+                "window",
+                "help"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"important\"],\n      \"introduces_new\": [\"mountains\", \"building\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'these mountains' for smooth speech",
+              "vocabulary_used": [
+                "building",
+                "mountains",
+                "important"
+              ],
+              "context_situation": "extracted_context_9",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "important"
+              ],
+              "introduces_new": [
+                "building",
+                "mountains",
+                "important"
+              ],
+              "phonetic_features": [
+                "challenging_sounds",
+                "stress_pattern_practice"
+              ],
+              "pronunciation_notes": "Focus on sounds: ŋ"
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"car\", \"shoes\", \"important\"],\n      \"context_situation\": \"Comparing the importance of items using this and those",
+              "vocabulary_used": [
+                "car",
+                "shoes",
+                "important"
+              ],
+              "context_situation": "extracted_context_5",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "important"
+              ],
+              "introduces_new": [
+                "car",
+                "shoes",
+                "important"
+              ],
+              "phonetic_features": [
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ʃ"
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"description\",\n      \"sentence_length\": 13,\n      \"grammatical_focus\": [\"demonstratives\", \"article_usage\"]\n    },\n    {\n      \"text\": \"Although this car is new, those shoes are more important for the trip",
+              "vocabulary_used": [
+                "car",
+                "shoes",
+                "important"
+              ],
+              "context_situation": "extracted_context_4",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "important"
+              ],
+              "introduces_new": [
+                "car",
+                "shoes",
+                "important"
+              ],
+              "phonetic_features": [
+                "challenging_sounds"
+              ],
+              "pronunciation_notes": "Focus on sounds: ʃ"
+            },
+            {
+              "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"goodbye\"],\n      \"introduces_new\": [\"book\", \"desk\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link the sounds in 'this book' and 'that pen' for natural flow",
+              "vocabulary_used": [
+                "book",
+                "pen",
+                "desk"
+              ],
+              "context_situation": "extracted_context_3",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "bye",
+                "goodbye"
+              ],
+              "introduces_new": [
+                "book",
+                "pen",
+                "desk"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"goodbye\", \"help\"],\n      \"introduces_new\": [\"books\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'help me' for natural flow",
+              "vocabulary_used": [
+                "book",
+                "help"
+              ],
+              "context_situation": "extracted_context_15",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "bye",
+                "goodbye",
+                "help"
+              ],
+              "introduces_new": [
+                "book",
+                "help"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"help\", \"books\"],\n      \"context_situation\": \"Requesting assistance using these and goodbye",
+              "vocabulary_used": [
+                "book",
+                "help"
+              ],
+              "context_situation": "extracted_context_14",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "bye",
+                "goodbye",
+                "help"
+              ],
+              "introduces_new": [
+                "book",
+                "help"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"contrast\",\n      \"sentence_length\": 12,\n      \"grammatical_focus\": [\"demonstratives\", \"conjunctions\"]\n    },\n    {\n      \"text\": \"Can you help me with these books before you say goodbye",
+              "vocabulary_used": [
+                "book",
+                "help"
+              ],
+              "context_situation": "extracted_context_13",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [
+                "bye",
+                "goodbye",
+                "help"
+              ],
+              "introduces_new": [
+                "book",
+                "help"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"vocabulary_used\": [\"window\", \"desk\"],\n      \"context_situation\": \"Contrasting the condition of objects using this and that",
+              "vocabulary_used": [
+                "desk",
+                "window"
+              ],
+              "context_situation": "extracted_context_11",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "desk",
+                "window"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            },
+            {
+              "text": "\",\n      \"communicative_function\": \"description\",\n      \"sentence_length\": 11,\n      \"grammatical_focus\": [\"demonstratives\", \"adjective_usage\"]\n    },\n    {\n      \"text\": \"This window needs cleaning, however, that desk is already clean",
+              "vocabulary_used": [
+                "desk",
+                "window"
+              ],
+              "context_situation": "extracted_context_10",
+              "complexity_level": "intermediate",
+              "reinforces_previous": [],
+              "introduces_new": [
+                "desk",
+                "window"
+              ],
+              "phonetic_features": [],
+              "pronunciation_notes": null
+            }
+          ],
+          "vocabulary_coverage": 0.9166666666666666,
+          "contextual_coherence": 0.0,
+          "progression_appropriateness": 1.0,
+          "phonetic_progression": [
+            "Sentence 1: 4 phonetic elements, avg 1.0 syllables",
+            "Sentence 2: 4 phonetic elements, avg 1.0 syllables",
+            "Sentence 3: 3 phonetic elements, avg 1.0 syllables",
+            "Sentence 4: 3 phonetic elements, avg 1.0 syllables",
+            "Sentence 5: 3 phonetic elements, avg 1.0 syllables",
+            "Sentence 6: 2 phonetic elements, avg 1.0 syllables",
+            "Sentence 7: 2 phonetic elements, avg 2.0 syllables",
+            "Sentence 8: 2 phonetic elements, avg 2.0 syllables",
+            "Sentence 9: 3 phonetic elements, avg 1.7 syllables",
+            "Sentence 10: 2 phonetic elements, avg 1.5 syllables",
+            "Sentence 11: 2 phonetic elements, avg 1.5 syllables",
+            "Sentence 12: 3 phonetic elements, avg 1.3 syllables",
+            "Sentence 13: 2 phonetic elements, avg 1.0 syllables",
+            "Sentence 14: 2 phonetic elements, avg 1.0 syllables",
+            "Sentence 15: 2 phonetic elements, avg 1.0 syllables"
+          ],
+          "pronunciation_patterns": [
+            "Stress patterns: 1 types across sentences",
+            "Syllable complexity: avg 1.2, max 2",
+            "Vowel focus: 3 challenging vowel sounds",
+            "Consonant focus: 2 challenging consonants"
+          ],
+          "generated_at": "2025-08-23T03:29:31.612952"
+        },
+        "generation_stats": {
+          "total_sentences": 12,
+          "vocabulary_coverage": "91.7%",
+          "contextual_coherence": "0.0%",
+          "processing_time": "26.87s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+          "previous_status": "sentences_pending",
+          "new_status": "content_pending",
+          "next_step": "Gerar estratégias (TIPS ou GRAMMAR)"
+        },
+        "rag_context_used": {
+          "taught_vocabulary_count": 15,
+          "reinforcement_words": 5,
+          "progression_level": "basic_introduction"
+        }
+      },
+      "message": "Sentences geradas com sucesso para unidade 'Unidade como usar thisxthat e thesexth...'",
+      "timestamp": "2025-08-23T03:29:34.213479",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "sequence": 2
+      },
+      "next_suggested_actions": [
+        "Gerar GRAMMAR",
+        "POST /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/grammar",
+        "Verificar contexto RAG atualizado",
+        "GET /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/context"
+      ]
+    },
+    "grammar": {
+      "success": true,
+      "data": {
+        "grammar": {
+          "strategy": "explicacao_sistematica",
+          "grammar_point": "Demonstrative Adjectives and Pronouns",
+          "systematic_explanation": "Os demonstrativos 'this/that' e 'these/those' são utilizados para indicar a posição ou proximidade de um objeto em relação ao falante. Em inglês, 'this' e 'these' referem-se a objetos próximos, enquanto 'that' e 'those' são usados para objetos mais distantes. Além disso, 'this' e 'that' são formas singulares, enquanto 'these' e 'those' são plurais. Podemos usá-los como adjetivos, quando acompanham um substantivo, ou como pronomes, quando substituem o substantivo referenciado. A explicação abaixo mostra como formar e usar esses demonstrativos de forma clara e contextualizada para alunos de nível B1.",
+          "usage_rules": [
+            "Use 'this' para indicar um único objeto próximo ao falante (ex.: 'this book').",
+            "Use 'that' para indicar um único objeto distante do falante (ex.: 'that car').",
+            "Use 'these' para indicar múltiplos objetos próximos (ex.: 'these shoes').",
+            "Use 'those' para indicar múltiplos objetos distantes (ex.: 'those mountains').",
+            "Quando usados como pronomes, os demonstrativos substituem o substantivo, mantendo a ideia de proximidade ou distância (ex.: 'This is important.')."
+          ],
+          "examples": [
+            "Example using Demonstrative Adjectives and Pronouns",
+            "Practical application example",
+            "Contextual usage example"
+          ],
+          "l1_interference_notes": [
+            "Falantes de português podem confundir o uso de singular/plural, pois na língua portuguesa há menos distinção de forma para demonstrativos. Por exemplo, 'este' pode ser usado tanto no singular quanto no plural em alguns contextos.",
+            "A posição do demonstrativo em inglês é sempre antes do substantivo quando funciona como adjetivo, ao contrário do português, que pode variar a posição."
+          ],
+          "common_mistakes": [
+            {
+              "mistake": "Utilizar 'this' ou 'that' com substantivos no plural (ex.: 'this books').",
+              "correction": "Use 'these' com substantivos plurais para objetos próximos e 'those' para objetos distantes (ex.: 'these books').",
+              "explanation": "É importante ajustar o demonstrativo ao número do substantivo para manter a concordância entre singular e plural."
+            },
+            {
+              "mistake": "Ignorar a distinção de distância, usando 'this' em contexto inapropriado para objetos que estão longe.",
+              "correction": "Utilize 'that' ou 'those' para objetos que não estão próximos do falante.",
+              "explanation": "A escolha do demonstrativo deve refletir a posição do objeto em relação ao falante."
+            }
+          ],
+          "vocabulary_integration": [
+            "This book is on the desk.",
+            "That car is fast.",
+            "These shoes are comfortable.",
+            "Those mountains are beautiful.",
+            "This window is important."
+          ],
+          "previous_grammar_connections": [
+            "Artigos definidos: 'the'. Embora 'the' seja usado para especificar, os demonstrativos adicionam uma dimensão espacial ao indicar proximidade ou distância.",
+            "Pronomes pessoais: Aprender os demonstrativos ajuda a compreender melhor como os pronomes funcionam, substituindo os substantivos em contextos comunicativos."
+          ],
+          "selection_rationale": "A estratégia de explicar os demonstrativos 'this/that' e 'these/those' de forma sistemática e contextualizada foi escolhida para facilitar a compreensão dos alunos de nível B1, aproximando a teoria da prática. O uso de vocabulário concreto (book, chair, car, etc.) aliado a exemplos visuais e atividades práticas (como diálogos e roleplays) contribui para a internalização dos conceitos. A variante americana foi considerada para destacar nuances de pronúncia e uso em contextos reais nos Estados Unidos, reforçando a relevância e aplicabilidade do conteúdo."
+        },
+        "generation_stats": {
+          "strategy_selected": "explicacao_sistematica",
+          "grammar_point": "Demonstrative Adjectives and Pronouns",
+          "usage_rules": 5,
+          "examples_count": 3,
+          "l1_interference_notes": 2,
+          "processing_time": "43.66s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+          "previous_status": "content_pending",
+          "new_status": "assessments_pending",
+          "next_step": "Gerar assessments para finalizar a unidade"
+        },
+        "strategy_analysis": {
+          "selected_strategy": "explicacao_sistematica",
+          "selection_rationale": "A estratégia de explicar os demonstrativos 'this/that' e 'these/those' de forma sistemática e contextualizada foi escolhida para facilitar a compreensão dos alunos de nível B1, aproximando a teoria da prática. O uso de vocabulário concreto (book, chair, car, etc.) aliado a exemplos visuais e atividades práticas (como diálogos e roleplays) contribui para a internalização dos conceitos. A variante americana foi considerada para destacar nuances de pronúncia e uso em contextos reais nos Estados Unidos, reforçando a relevância e aplicabilidade do conteúdo.",
+          "used_strategies_context": [
+            "expressoes_fixas"
+          ],
+          "l1_interference_focus": [
+            "Falantes de português podem confundir o uso de singular/plural, pois na língua portuguesa há menos distinção de forma para demonstrativos. Por exemplo, 'este' pode ser usado tanto no singular quanto no plural em alguns contextos.",
+            "A posição do demonstrativo em inglês é sempre antes do substantivo quando funciona como adjetivo, ao contrário do português, que pode variar a posição."
+          ],
+          "brazilian_learner_adaptations": 2
+        }
+      },
+      "message": "Estratégia GRAMMAR 'explicacao_sistematica' gerada com sucesso para unidade 'Unidade como usar thisxthat e thesexth...'",
+      "timestamp": "2025-08-23T03:30:23.007891",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "sequence": 2
+      },
+      "next_suggested_actions": [
+        "Gerar assessments para finalizar",
+        "POST /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/assessments",
+        "Verificar estratégia aplicada",
+        "GET /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/grammar",
+        "Analisar qualidade da estratégia",
+        "GET /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/grammar/analysis"
+      ]
+    },
+    "qa": null,
+    "assessments": {
+      "success": true,
+      "data": {
+        "assessments": {
+          "activities": [
+            {
+              "type": "transformation",
+              "title": "Near or Far? – Rewriting with Demonstratives",
+              "instructions": "Rewrite each sentence so that it keeps the same meaning but DOES NOT use this/that/these/those. Use other words (e.g. here, over there, close to me) to show distance. Follow the example.",
+              "content": {
+                "transformations": [
+                  {
+                    "original": "This book is on the desk, but that pen is on the chair.",
+                    "target": "The book here is on the desk, whereas the pen over there is on the chair."
+                  },
+                  {
+                    "original": "These shoes look very comfortable.",
+                    "target": "The shoes here look very comfortable."
+                  },
+                  {
+                    "original": "Those mountains are amazing in the morning light.",
+                    "target": "The mountains over there are amazing in the morning light."
+                  },
+                  {
+                    "original": "This window needs cleaning.",
+                    "target": "The window close to me needs cleaning."
+                  },
+                  {
+                    "original": "That car takes a lot of time to start.",
+                    "target": "The car over there takes a lot of time to start."
+                  },
+                  {
+                    "original": "These buildings are important for the project.",
+                    "target": "The buildings here are important for the project."
+                  }
+                ]
+              },
+              "answer_key": {
+                "1": "The book here is on the desk, whereas the pen over there is on the chair.",
+                "2": "The shoes here look very comfortable.",
+                "3": "The mountains over there are amazing in the morning light.",
+                "4": "The window close to me needs cleaning.",
+                "5": "The car over there takes a lot of time to start.",
+                "6": "The buildings here are important for the project."
+              },
+              "estimated_time": 10,
+              "difficulty_level": "intermediate",
+              "skills_assessed": [
+                "grammatical_equivalence",
+                "paraphrasing",
+                "structural_flexibility"
+              ],
+              "vocabulary_focus": [
+                "book",
+                "desk",
+                "pen",
+                "chair",
+                "shoes"
+              ],
+              "pronunciation_focus": false,
+              "phonetic_elements": []
+            },
+            {
+              "type": "matching",
+              "title": "This • That • These • Those – Match the Situation to the Correct Phrase",
+              "instructions": "Match each description on the left with the correct demonstrative phrase on the right. Write the letter of the phrase next to the corresponding number.",
+              "content": {
+                "left_column": [
+                  "1. A single book I am holding in my hand",
+                  "2. A single car parked across the street",
+                  "3. Two shoes right next to me",
+                  "4. Several mountains we can see far away",
+                  "5. A pen on the other side of the classroom",
+                  "6. The window I am touching",
+                  "7. Three chairs near our table",
+                  "8. A tall building over there"
+                ],
+                "right_column": [
+                  "A. this book",
+                  "B. that car",
+                  "C. these shoes",
+                  "D. those mountains",
+                  "E. that pen",
+                  "F. this window",
+                  "G. these chairs",
+                  "H. that building"
+                ]
+              },
+              "answer_key": {
+                "1": "A",
+                "2": "B",
+                "3": "C",
+                "4": "D",
+                "5": "E",
+                "6": "F",
+                "7": "G",
+                "8": "H"
+              },
+              "estimated_time": 8,
+              "difficulty_level": "intermediate",
+              "skills_assessed": [
+                "association_skills",
+                "lexical_relationships",
+                "categorization"
+              ],
+              "vocabulary_focus": [
+                "book",
+                "car",
+                "shoes",
+                "mountains",
+                "pen"
+              ],
+              "pronunciation_focus": false,
+              "phonetic_elements": []
+            }
+          ],
+          "selection_rationale": "As duas atividades se complementam porque o matching ativa o reconhecimento rápido das relações “this/that/these/those + vocabulário”, enquanto a transformation exige que o aluno manipule essas mesmas estruturas parafraseando frases, passando do nível receptivo ao produtivo. Como ambos os tipos estavam subutilizados no balanceamento (elevando o score de 0,35), sua inclusão corrige a distribuição sem repetir formatos já frequentes. Para alunos B1, o matching dá segurança na escolha do demonstrativo correto em contextos simples, e a transformation desafia a aplicar regras de distância e número em enunciados mais complexos—exatamente o passo esperado na abordagem “explicação sistemática” de gramática. Assim, a sequência oferece variedade pedagógica, alternando tarefas de baixa e alta carga cognitiva e cobrindo diferentes estilos de aprendizagem.",
+          "total_estimated_time": 18,
+          "skills_assessed": [
+            "lexical_relationships",
+            "structural_flexibility",
+            "grammatical_equivalence",
+            "paraphrasing",
+            "categorization",
+            "association_skills"
+          ],
+          "balance_analysis": {
+            "current_distribution": {
+              "gap_fill": 1,
+              "multiple_choice": 1
+            },
+            "overused_types": [],
+            "underused_types": [
+              "cloze_test",
+              "reordering",
+              "transformation",
+              "true_false",
+              "matching"
+            ],
+            "balance_score": 0.35,
+            "skill_diversity": 0.4,
+            "recommendations": [
+              "Introduzir pelo menos um exercício de reordering para trabalhar ordem e estrutura de sentenças envolvendo demonstrativos (this/that/these/those).",
+              "Adicionar um transformation para que o aluno pratique equivalência gramatical (ex.: converter frases de singular para plural usando demonstrativos).",
+              "Incluir um cloze_test curto em contexto situacional (diálogo ou pequeno texto descritivo) para ampliar a compreensão geral e checar o uso funcional dos demonstrativos em nível B1.",
+              "Usar um matching de imagens com frases contendo this/that/these/those para fortalecer a associação semântica-pragmática e aumentar a variedade de habilidades avaliadas.",
+              "Monitorar que nenhum tipo ultrapasse 2 usos dentro da unidade para manter equilíbrio futuro."
+            ]
+          },
+          "underused_activities": [
+            "reordering",
+            "transformation",
+            "cloze_test",
+            "matching"
+          ],
+          "complementary_pair": true
+        },
+        "generation_stats": {
+          "activities_generated": 2,
+          "assessment_types": [
+            "transformation",
+            "matching"
+          ],
+          "total_estimated_time": "18 min",
+          "skills_assessed": [
+            "lexical_relationships",
+            "structural_flexibility",
+            "grammatical_equivalence",
+            "paraphrasing",
+            "categorization",
+            "association_skills"
+          ],
+          "processing_time": "68.44s"
+        },
+        "unit_progression": {
+          "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+          "previous_status": "assessments_pending",
+          "new_status": "completed",
+          "final_quality_score": 0.57,
+          "completion_message": "Unidade finalizada com sucesso!"
+        },
+        "rag_balancing": {
+          "used_assessments_analysis": {
+            "gap_fill": 1,
+            "multiple_choice": 1
+          },
+          "selected_activities": [
+            "transformation",
+            "matching"
+          ],
+          "balance_rationale": "As duas atividades se complementam porque o matching ativa o reconhecimento rápido das relações “this/that/these/those + vocabulário”, enquanto a transformation exige que o aluno manipule essas mesmas estruturas parafraseando frases, passando do nível receptivo ao produtivo. Como ambos os tipos estavam subutilizados no balanceamento (elevando o score de 0,35), sua inclusão corrige a distribuição sem repetir formatos já frequentes. Para alunos B1, o matching dá segurança na escolha do demonstrativo correto em contextos simples, e a transformation desafia a aplicar regras de distância e número em enunciados mais complexos—exatamente o passo esperado na abordagem “explicação sistemática” de gramática. Assim, a sequência oferece variedade pedagógica, alternando tarefas de baixa e alta carga cognitiva e cobrindo diferentes estilos de aprendizagem.",
+          "underused_activities": [
+            "reordering",
+            "transformation",
+            "cloze_test",
+            "matching"
+          ]
+        }
+      },
+      "message": "Assessments gerados com sucesso para unidade 'Unidade como usar thisxthat e thesexth...' - Unidade COMPLETA!",
+      "timestamp": "2025-08-23T03:31:40.271579",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "sequence": 2
+      },
+      "next_suggested_actions": [
+        "Visualizar unidade completa",
+        "GET /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "Exportar para PDF",
+        "POST /api/v2/units/unit_b546b485_2509_40c7_89d9_19a639697e09/export",
+        "Criar próxima unidade no book",
+        "POST /api/v2/books/book_d0f976db_c48b_43d2_8f32_65f618e82ddf/units"
+      ]
+    },
+    "complete_content": {
+      "success": true,
+      "data": {
+        "unit_info": {
+          "id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+          "title": "Unidade como usar thisxthat e thesexth...",
+          "context": "como usar thisxthat e thesexthose",
+          "cefr_level": "B1",
+          "language_variant": "american_english",
+          "unit_type": "grammar_unit",
+          "status": "completed",
+          "sequence_order": 2,
+          "quality_score": 0.57
+        },
+        "hierarchy_context": {
+          "course_name": "curso de ingles metodo direto",
+          "book_name": "Fase 1",
+          "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+          "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf"
+        },
+        "generated_content": {
+          "main_aim": null,
+          "subsidiary_aims": [],
+          "vocabulary": {
+            "items": [
+              {
+                "word": "book",
+                "example": "This book is very interesting.",
+                "phoneme": "/bʊk/",
+                "definition": "livro",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "chair",
+                "example": "That chair is comfortable.",
+                "phoneme": "/tʃɛr/",
+                "definition": "cadeira",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "car",
+                "example": "Is that your car over there?",
+                "phoneme": "/kɑr/",
+                "definition": "carro",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "very_high",
+                "is_reinforcement": false,
+                "context_relevance": 1.0,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "pen",
+                "example": "This is my favorite pen.",
+                "phoneme": "/pɛn/",
+                "definition": "caneta",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "building",
+                "example": "That building is new.",
+                "phoneme": "/ˈbɪldɪŋ/",
+                "definition": "prédio",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 2,
+                "frequency_level": "medium",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "shoes",
+                "example": "These shoes are too big for me.",
+                "phoneme": "/ʃuz/",
+                "definition": "sapatos",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "mountains",
+                "example": "Those mountains are beautiful.",
+                "phoneme": "/ˈmaʊntənz/",
+                "definition": "montanhas",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 2,
+                "frequency_level": "medium",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "desk",
+                "example": "This desk is made of wood.",
+                "phoneme": "/dɛsk/",
+                "definition": "escrivaninha",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "unstressed",
+                "syllable_count": 1,
+                "frequency_level": "medium",
+                "is_reinforcement": false,
+                "context_relevance": 0.8,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "window",
+                "example": "That window is open.",
+                "phoneme": "/ˈwɪndoʊ/",
+                "definition": "janela",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": "primary_first",
+                "syllable_count": 2,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.9,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "important",
+                "example": "I often use important in my daily conversations.",
+                "phoneme": "/important/",
+                "definition": "importante",
+                "word_class": "adjective",
+                "ipa_variant": "general_american",
+                "stress_pattern": null,
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.7,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "help",
+                "example": "I often use help in my daily conversations.",
+                "phoneme": "/help/",
+                "definition": "ajudar",
+                "word_class": "verb",
+                "ipa_variant": "general_american",
+                "stress_pattern": null,
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.7,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              },
+              {
+                "word": "time",
+                "example": "I often use time in my daily conversations.",
+                "phoneme": "/time/",
+                "definition": "tempo",
+                "word_class": "noun",
+                "ipa_variant": "general_american",
+                "stress_pattern": null,
+                "syllable_count": 1,
+                "frequency_level": "high",
+                "is_reinforcement": false,
+                "context_relevance": 0.7,
+                "first_introduced_unit": null,
+                "alternative_pronunciations": []
+              }
+            ],
+            "total_count": 12,
+            "generated_at": "2025-08-23T03:28:59.201198",
+            "new_words_count": 9,
+            "phoneme_coverage": {
+              "coverage_score": 76,
+              "total_unique_phonemes": 23
+            },
+            "rag_context_used": {
+              "used_strategies": [
+                "expressoes_fixas"
+              ],
+              "progression_level": "high_frequency_basic",
+              "taught_vocabulary": [
+                "bye",
+                "good afternoon",
+                "good evening",
+                "good morning",
+                "good night",
+                "goodbye",
+                "help",
+                "how are you",
+                "i'm fine",
+                "important",
+                "nice to meet you",
+                "see you later",
+                "take care",
+                "thank you",
+                "you're welcome"
+              ],
+              "vocabulary_density": 7.5
+            },
+            "context_relevance": 0.8,
+            "progression_level": "high_frequency_basic",
+            "phonetic_complexity": "complex",
+            "pronunciation_variants": [
+              "american_english"
+            ],
+            "reinforcement_words_count": 0
+          },
+          "sentences": {
+            "sentences": [
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"book\", \"desk\", \"pen\", \"chair\"],\n      \"context_situation\": \"Identifying the location of objects using this and that",
+                "introduces_new": [
+                  "book",
+                  "chair",
+                  "pen",
+                  "desk"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "chair",
+                  "pen",
+                  "desk"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_2",
+                "phonetic_features": [
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ʃ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "```json\n{\n  \"sentences\": [\n    {\n      \"text\": \"This book is on the desk, but that pen is on the chair",
+                "introduces_new": [
+                  "book",
+                  "chair",
+                  "pen",
+                  "desk"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "chair",
+                  "pen",
+                  "desk"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_1",
+                "phonetic_features": [
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ʃ",
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"complexity_level\": \"complex\",\n      \"reinforces_previous\": [\"help\"],\n      \"introduces_new\": [\"window\", \"desk\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'this window' and emphasize 'however' to show contrast",
+                "introduces_new": [
+                  "desk",
+                  "window",
+                  "help"
+                ],
+                "vocabulary_used": [
+                  "desk",
+                  "window",
+                  "help"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_12",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": [
+                  "help"
+                ]
+              },
+              {
+                "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"important\"],\n      \"introduces_new\": [\"mountains\", \"building\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'these mountains' for smooth speech",
+                "introduces_new": [
+                  "building",
+                  "mountains",
+                  "important"
+                ],
+                "vocabulary_used": [
+                  "building",
+                  "mountains",
+                  "important"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_9",
+                "phonetic_features": [
+                  "challenging_sounds",
+                  "stress_pattern_practice"
+                ],
+                "pronunciation_notes": "Focus on sounds: ŋ",
+                "reinforces_previous": [
+                  "important"
+                ]
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"car\", \"shoes\", \"important\"],\n      \"context_situation\": \"Comparing the importance of items using this and those",
+                "introduces_new": [
+                  "car",
+                  "shoes",
+                  "important"
+                ],
+                "vocabulary_used": [
+                  "car",
+                  "shoes",
+                  "important"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_5",
+                "phonetic_features": [
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ʃ",
+                "reinforces_previous": [
+                  "important"
+                ]
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"description\",\n      \"sentence_length\": 13,\n      \"grammatical_focus\": [\"demonstratives\", \"article_usage\"]\n    },\n    {\n      \"text\": \"Although this car is new, those shoes are more important for the trip",
+                "introduces_new": [
+                  "car",
+                  "shoes",
+                  "important"
+                ],
+                "vocabulary_used": [
+                  "car",
+                  "shoes",
+                  "important"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_4",
+                "phonetic_features": [
+                  "challenging_sounds"
+                ],
+                "pronunciation_notes": "Focus on sounds: ʃ",
+                "reinforces_previous": [
+                  "important"
+                ]
+              },
+              {
+                "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"goodbye\"],\n      \"introduces_new\": [\"book\", \"desk\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link the sounds in 'this book' and 'that pen' for natural flow",
+                "introduces_new": [
+                  "book",
+                  "pen",
+                  "desk"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "pen",
+                  "desk"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_3",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": [
+                  "bye",
+                  "goodbye"
+                ]
+              },
+              {
+                "text": "\",\n      \"complexity_level\": \"intermediate\",\n      \"reinforces_previous\": [\"goodbye\", \"help\"],\n      \"introduces_new\": [\"books\"],\n      \"phonetic_features\": [\"linking_sounds\"],\n      \"pronunciation_notes\": \"Link 'help me' for natural flow",
+                "introduces_new": [
+                  "book",
+                  "help"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "help"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_15",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": [
+                  "bye",
+                  "goodbye",
+                  "help"
+                ]
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"help\", \"books\"],\n      \"context_situation\": \"Requesting assistance using these and goodbye",
+                "introduces_new": [
+                  "book",
+                  "help"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "help"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_14",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": [
+                  "bye",
+                  "goodbye",
+                  "help"
+                ]
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"contrast\",\n      \"sentence_length\": 12,\n      \"grammatical_focus\": [\"demonstratives\", \"conjunctions\"]\n    },\n    {\n      \"text\": \"Can you help me with these books before you say goodbye",
+                "introduces_new": [
+                  "book",
+                  "help"
+                ],
+                "vocabulary_used": [
+                  "book",
+                  "help"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_13",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": [
+                  "bye",
+                  "goodbye",
+                  "help"
+                ]
+              },
+              {
+                "text": "\",\n      \"vocabulary_used\": [\"window\", \"desk\"],\n      \"context_situation\": \"Contrasting the condition of objects using this and that",
+                "introduces_new": [
+                  "desk",
+                  "window"
+                ],
+                "vocabulary_used": [
+                  "desk",
+                  "window"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_11",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              },
+              {
+                "text": "\",\n      \"communicative_function\": \"description\",\n      \"sentence_length\": 11,\n      \"grammatical_focus\": [\"demonstratives\", \"adjective_usage\"]\n    },\n    {\n      \"text\": \"This window needs cleaning, however, that desk is already clean",
+                "introduces_new": [
+                  "desk",
+                  "window"
+                ],
+                "vocabulary_used": [
+                  "desk",
+                  "window"
+                ],
+                "complexity_level": "intermediate",
+                "context_situation": "extracted_context_10",
+                "phonetic_features": [],
+                "pronunciation_notes": null,
+                "reinforces_previous": []
+              }
+            ],
+            "generated_at": "2025-08-23T03:29:31.612952",
+            "vocabulary_coverage": 0.9166666666666666,
+            "contextual_coherence": 0.0,
+            "phonetic_progression": [
+              "Sentence 1: 4 phonetic elements, avg 1.0 syllables",
+              "Sentence 2: 4 phonetic elements, avg 1.0 syllables",
+              "Sentence 3: 3 phonetic elements, avg 1.0 syllables",
+              "Sentence 4: 3 phonetic elements, avg 1.0 syllables",
+              "Sentence 5: 3 phonetic elements, avg 1.0 syllables",
+              "Sentence 6: 2 phonetic elements, avg 1.0 syllables",
+              "Sentence 7: 2 phonetic elements, avg 2.0 syllables",
+              "Sentence 8: 2 phonetic elements, avg 2.0 syllables",
+              "Sentence 9: 3 phonetic elements, avg 1.7 syllables",
+              "Sentence 10: 2 phonetic elements, avg 1.5 syllables",
+              "Sentence 11: 2 phonetic elements, avg 1.5 syllables",
+              "Sentence 12: 3 phonetic elements, avg 1.3 syllables",
+              "Sentence 13: 2 phonetic elements, avg 1.0 syllables",
+              "Sentence 14: 2 phonetic elements, avg 1.0 syllables",
+              "Sentence 15: 2 phonetic elements, avg 1.0 syllables"
+            ],
+            "pronunciation_patterns": [
+              "Stress patterns: 1 types across sentences",
+              "Syllable complexity: avg 1.2, max 2",
+              "Vowel focus: 3 challenging vowel sounds",
+              "Consonant focus: 2 challenging consonants"
+            ],
+            "progression_appropriateness": 1.0
+          },
+          "tips": null,
+          "grammar": {
+            "examples": [
+              "Example using Demonstrative Adjectives and Pronouns",
+              "Practical application example",
+              "Contextual usage example"
+            ],
+            "strategy": "explicacao_sistematica",
+            "usage_rules": [
+              "Use 'this' para indicar um único objeto próximo ao falante (ex.: 'this book').",
+              "Use 'that' para indicar um único objeto distante do falante (ex.: 'that car').",
+              "Use 'these' para indicar múltiplos objetos próximos (ex.: 'these shoes').",
+              "Use 'those' para indicar múltiplos objetos distantes (ex.: 'those mountains').",
+              "Quando usados como pronomes, os demonstrativos substituem o substantivo, mantendo a ideia de proximidade ou distância (ex.: 'This is important.')."
+            ],
+            "grammar_point": "Demonstrative Adjectives and Pronouns",
+            "common_mistakes": [
+              {
+                "mistake": "Utilizar 'this' ou 'that' com substantivos no plural (ex.: 'this books').",
+                "correction": "Use 'these' com substantivos plurais para objetos próximos e 'those' para objetos distantes (ex.: 'these books').",
+                "explanation": "É importante ajustar o demonstrativo ao número do substantivo para manter a concordância entre singular e plural."
+              },
+              {
+                "mistake": "Ignorar a distinção de distância, usando 'this' em contexto inapropriado para objetos que estão longe.",
+                "correction": "Utilize 'that' ou 'those' para objetos que não estão próximos do falante.",
+                "explanation": "A escolha do demonstrativo deve refletir a posição do objeto em relação ao falante."
+              }
+            ],
+            "selection_rationale": "A estratégia de explicar os demonstrativos 'this/that' e 'these/those' de forma sistemática e contextualizada foi escolhida para facilitar a compreensão dos alunos de nível B1, aproximando a teoria da prática. O uso de vocabulário concreto (book, chair, car, etc.) aliado a exemplos visuais e atividades práticas (como diálogos e roleplays) contribui para a internalização dos conceitos. A variante americana foi considerada para destacar nuances de pronúncia e uso em contextos reais nos Estados Unidos, reforçando a relevância e aplicabilidade do conteúdo.",
+            "l1_interference_notes": [
+              "Falantes de português podem confundir o uso de singular/plural, pois na língua portuguesa há menos distinção de forma para demonstrativos. Por exemplo, 'este' pode ser usado tanto no singular quanto no plural em alguns contextos.",
+              "A posição do demonstrativo em inglês é sempre antes do substantivo quando funciona como adjetivo, ao contrário do português, que pode variar a posição."
+            ],
+            "systematic_explanation": "Os demonstrativos 'this/that' e 'these/those' são utilizados para indicar a posição ou proximidade de um objeto em relação ao falante. Em inglês, 'this' e 'these' referem-se a objetos próximos, enquanto 'that' e 'those' são usados para objetos mais distantes. Além disso, 'this' e 'that' são formas singulares, enquanto 'these' e 'those' são plurais. Podemos usá-los como adjetivos, quando acompanham um substantivo, ou como pronomes, quando substituem o substantivo referenciado. A explicação abaixo mostra como formar e usar esses demonstrativos de forma clara e contextualizada para alunos de nível B1.",
+            "vocabulary_integration": [
+              "This book is on the desk.",
+              "That car is fast.",
+              "These shoes are comfortable.",
+              "Those mountains are beautiful.",
+              "This window is important."
+            ],
+            "previous_grammar_connections": [
+              "Artigos definidos: 'the'. Embora 'the' seja usado para especificar, os demonstrativos adicionam uma dimensão espacial ao indicar proximidade ou distância.",
+              "Pronomes pessoais: Aprender os demonstrativos ajuda a compreender melhor como os pronomes funcionam, substituindo os substantivos em contextos comunicativos."
+            ]
+          },
+          "assessments": {
+            "activities": [
+              {
+                "type": "transformation",
+                "title": "Near or Far? – Rewriting with Demonstratives",
+                "content": {
+                  "transformations": [
+                    {
+                      "target": "The book here is on the desk, whereas the pen over there is on the chair.",
+                      "original": "This book is on the desk, but that pen is on the chair."
+                    },
+                    {
+                      "target": "The shoes here look very comfortable.",
+                      "original": "These shoes look very comfortable."
+                    },
+                    {
+                      "target": "The mountains over there are amazing in the morning light.",
+                      "original": "Those mountains are amazing in the morning light."
+                    },
+                    {
+                      "target": "The window close to me needs cleaning.",
+                      "original": "This window needs cleaning."
+                    },
+                    {
+                      "target": "The car over there takes a lot of time to start.",
+                      "original": "That car takes a lot of time to start."
+                    },
+                    {
+                      "target": "The buildings here are important for the project.",
+                      "original": "These buildings are important for the project."
+                    }
+                  ]
+                },
+                "answer_key": {
+                  "1": "The book here is on the desk, whereas the pen over there is on the chair.",
+                  "2": "The shoes here look very comfortable.",
+                  "3": "The mountains over there are amazing in the morning light.",
+                  "4": "The window close to me needs cleaning.",
+                  "5": "The car over there takes a lot of time to start.",
+                  "6": "The buildings here are important for the project."
+                },
+                "instructions": "Rewrite each sentence so that it keeps the same meaning but DOES NOT use this/that/these/those. Use other words (e.g. here, over there, close to me) to show distance. Follow the example.",
+                "estimated_time": 10,
+                "skills_assessed": [
+                  "grammatical_equivalence",
+                  "paraphrasing",
+                  "structural_flexibility"
+                ],
+                "difficulty_level": "intermediate",
+                "vocabulary_focus": [
+                  "book",
+                  "desk",
+                  "pen",
+                  "chair",
+                  "shoes"
+                ],
+                "phonetic_elements": [],
+                "pronunciation_focus": false
+              },
+              {
+                "type": "matching",
+                "title": "This • That • These • Those – Match the Situation to the Correct Phrase",
+                "content": {
+                  "left_column": [
+                    "1. A single book I am holding in my hand",
+                    "2. A single car parked across the street",
+                    "3. Two shoes right next to me",
+                    "4. Several mountains we can see far away",
+                    "5. A pen on the other side of the classroom",
+                    "6. The window I am touching",
+                    "7. Three chairs near our table",
+                    "8. A tall building over there"
+                  ],
+                  "right_column": [
+                    "A. this book",
+                    "B. that car",
+                    "C. these shoes",
+                    "D. those mountains",
+                    "E. that pen",
+                    "F. this window",
+                    "G. these chairs",
+                    "H. that building"
+                  ]
+                },
+                "answer_key": {
+                  "1": "A",
+                  "2": "B",
+                  "3": "C",
+                  "4": "D",
+                  "5": "E",
+                  "6": "F",
+                  "7": "G",
+                  "8": "H"
+                },
+                "instructions": "Match each description on the left with the correct demonstrative phrase on the right. Write the letter of the phrase next to the corresponding number.",
+                "estimated_time": 8,
+                "skills_assessed": [
+                  "association_skills",
+                  "lexical_relationships",
+                  "categorization"
+                ],
+                "difficulty_level": "intermediate",
+                "vocabulary_focus": [
+                  "book",
+                  "car",
+                  "shoes",
+                  "mountains",
+                  "pen"
+                ],
+                "phonetic_elements": [],
+                "pronunciation_focus": false
+              }
+            ],
+            "skills_assessed": [
+              "lexical_relationships",
+              "structural_flexibility",
+              "grammatical_equivalence",
+              "paraphrasing",
+              "categorization",
+              "association_skills"
+            ],
+            "balance_analysis": {
+              "balance_score": 0.35,
+              "overused_types": [],
+              "recommendations": [
+                "Introduzir pelo menos um exercício de reordering para trabalhar ordem e estrutura de sentenças envolvendo demonstrativos (this/that/these/those).",
+                "Adicionar um transformation para que o aluno pratique equivalência gramatical (ex.: converter frases de singular para plural usando demonstrativos).",
+                "Incluir um cloze_test curto em contexto situacional (diálogo ou pequeno texto descritivo) para ampliar a compreensão geral e checar o uso funcional dos demonstrativos em nível B1.",
+                "Usar um matching de imagens com frases contendo this/that/these/those para fortalecer a associação semântica-pragmática e aumentar a variedade de habilidades avaliadas.",
+                "Monitorar que nenhum tipo ultrapasse 2 usos dentro da unidade para manter equilíbrio futuro."
+              ],
+              "skill_diversity": 0.4,
+              "underused_types": [
+                "cloze_test",
+                "reordering",
+                "transformation",
+                "true_false",
+                "matching"
+              ],
+              "current_distribution": {
+                "gap_fill": 1,
+                "multiple_choice": 1
+              }
+            },
+            "complementary_pair": true,
+            "selection_rationale": "As duas atividades se complementam porque o matching ativa o reconhecimento rápido das relações “this/that/these/those + vocabulário”, enquanto a transformation exige que o aluno manipule essas mesmas estruturas parafraseando frases, passando do nível receptivo ao produtivo. Como ambos os tipos estavam subutilizados no balanceamento (elevando o score de 0,35), sua inclusão corrige a distribuição sem repetir formatos já frequentes. Para alunos B1, o matching dá segurança na escolha do demonstrativo correto em contextos simples, e a transformation desafia a aplicar regras de distância e número em enunciados mais complexos—exatamente o passo esperado na abordagem “explicação sistemática” de gramática. Assim, a sequência oferece variedade pedagógica, alternando tarefas de baixa e alta carga cognitiva e cobrindo diferentes estilos de aprendizagem.",
+            "total_estimated_time": 18,
+            "underused_activities": [
+              "reordering",
+              "transformation",
+              "cloze_test",
+              "matching"
+            ]
+          },
+          "qa": null
+        },
+        "content_summary": {
+          "has_vocabulary": true,
+          "has_sentences": true,
+          "has_strategies": true,
+          "has_assessments": true,
+          "has_qa": false,
+          "completion_percentage": 100.0
+        },
+        "images": []
+      },
+      "message": "Conteúdo completo da unidade 'Unidade como usar thisxthat e thesexth...'",
+      "timestamp": "2025-08-23T03:31:40.813151",
+      "hierarchy_info": {
+        "course_id": "course_7329f6f0_c778_49b8_9e9e_748ab02c9f5a",
+        "book_id": "book_d0f976db_c48b_43d2_8f32_65f618e82ddf",
+        "unit_id": "unit_b546b485_2509_40c7_89d9_19a639697e09",
+        "sequence": 2
+      },
+      "next_suggested_actions": []
+    }
+  }
+}

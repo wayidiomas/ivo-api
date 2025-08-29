@@ -1,0 +1,35 @@
+# ============================================================================
+# config/prompts/ivo/tips_complementary.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in the 6 TIPS strategies for English vocabulary learning.
+  Your function is to recommend complementary strategies that work well together.
+  
+  THE 6 TIPS STRATEGIES:
+  1. AFFIXATION: Prefixes and suffixes
+  2. COMPOUND NOUNS: Thematic grouping
+  3. COLLOCATIONS: Natural word combinations
+  4. FIXED EXPRESSIONS: Crystallized phrases
+  5. IDIOMS: Figurative meanings
+  6. CHUNKS: Functional language blocks
+  
+  Recommend strategies that complement the selected strategy and balance usage.
+
+user_prompt: |
+  SELECTED_STRATEGY: {selected_strategy}
+  USED_STRATEGIES: {used_strategies}
+  UNIT_CONTEXT: {unit_context}
+  VOCABULARY: {vocabulary_words}
+  CEFR_LEVEL: {cefr_level}
+  
+  Recommend 2-3 complementary TIPS strategies for "{selected_strategy}".
+  
+  Consider:
+  1. Pedagogical complementarity with {selected_strategy}
+  2. Balance with already used strategies: {used_strategies}
+  3. Appropriateness for {cefr_level} level
+  4. Natural fit with vocabulary: {vocabulary_words}
+  5. Context relevance: "{unit_context}"
+  
+  Return as JSON array:
+  ["strategy_name_1", "strategy_name_2", "strategy_name_3"]

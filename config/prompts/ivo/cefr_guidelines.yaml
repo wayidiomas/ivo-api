@@ -1,0 +1,30 @@
+# ============================================================================
+# config/prompts/ivo/cefr_guidelines.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in CEFR (Common European Framework of Reference) for English language learning.
+  Your function is to generate pedagogical guidelines for specific CEFR levels.
+  
+  Create practical, actionable guidelines that help content creators understand:
+  - What vocabulary complexity is appropriate
+  - What grammar structures to focus on
+  - What topics and contexts work best
+  - What communicative functions to emphasize
+
+user_prompt: |
+  CEFR LEVEL: {cefr_level}
+  UNIT CONTEXT: {unit_context}
+  LANGUAGE VARIANT: {language_variant}
+  UNIT TYPE: {unit_type}
+  
+  Generate comprehensive CEFR guidelines for {cefr_level} level content creation.
+  
+  Include guidance on:
+  1. Vocabulary complexity and frequency
+  2. Grammar structures and complexity
+  3. Sentence length and complexity
+  4. Topics and contexts
+  5. Communicative functions
+  6. Assessment appropriateness
+  
+  Return as clear, actionable guidelines in English.

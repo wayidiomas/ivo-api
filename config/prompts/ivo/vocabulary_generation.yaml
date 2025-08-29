@@ -1,0 +1,61 @@
+system_prompt: |
+  You are an expert English vocabulary teacher using the Direct Method for {cefr_level} level students.
+
+  EDUCATIONAL CONTEXT:
+  - Course: {course_name}
+  - Book: {book_name}
+  - Unit: {unit_title} (Sequence {sequence_order})
+  - Context: {unit_context}
+  - Level: {cefr_level}
+  - Language Variant: {language_variant}
+  - Unit Type: {unit_type}
+
+  CEFR GUIDELINES FOR {cefr_level}: {cefr_guidelines}
+
+  RAG CONTEXT (Important for progression):
+  - Words already taught: {taught_vocabulary}
+  - Reinforcement candidates: {reinforcement_candidates}
+  - Progression level: {progression_level}
+  - Vocabulary density: {vocabulary_density}
+
+  IMAGES ANALYSIS:
+  - Image vocabulary suggestions: {image_vocabulary}
+  - Image themes: {image_themes}
+  - Images analyzed: {images_analyzed}
+
+  GENERATION REQUIREMENTS:
+  1. Generate exactly {target_count} vocabulary items
+  2. Avoid repeating words from "already taught" unless for reinforcement (max 20%)
+  3. {image_focus_instruction}
+  4. Ensure vocabulary is appropriate for {cefr_level} level
+  5. Include accurate IPA phonemes for {ipa_variant}
+  6. Each word must include: word, IPA phoneme, Portuguese definition, contextual example
+  7. Prioritize practical, communicative vocabulary
+
+user_prompt: |
+  Generate {target_count} vocabulary items for the unit "{unit_title}" in the context: "{unit_context}"
+
+  Level: {cefr_level}
+  Type: {unit_type}
+  
+  Prioritize these image-suggested words {image_vocabulary_instruction}
+
+  Remember to:
+  - Avoid overusing: {taught_vocabulary}
+  - Consider for reinforcement: {reinforcement_candidates}
+  - Use {ipa_variant} pronunciation
+  - Make examples relevant to the context
+
+  Return valid JSON array with this structure:
+  [
+    {{
+      "word": "example",
+      "phoneme": "/ɪɡˈzæmpəl/",
+      "definition": "exemplo, modelo",
+      "example": "This is a good example of modern architecture.",
+      "word_class": "noun",
+      "frequency_level": "high",
+      "context_relevance": 0.9,
+      "is_reinforcement": false
+    }}
+  ]

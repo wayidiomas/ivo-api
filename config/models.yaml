@@ -1,0 +1,136 @@
+# Configurações dos modelos de IA - Atualizado Janeiro 2025
+openai:
+  # Modelos estratificados por complexidade e custo
+  models:
+    # TIER 1: Tarefas Simples (Baixo Custo)
+    # gpt-4o-mini: $0.15/$0.60 por 1M tokens
+    simple: "gpt-4o-mini"        # RAG, contexto, validações básicas
+    vision: "gpt-4o-mini"        # Análise de imagens (multimodal)
+    
+    # TIER 2: Tarefas Médias (Custo-Benefício)
+    # gpt-5-mini: Mais barato que GPT-5, melhor que 4o-mini
+    medium: "gpt-5-mini"         # Vocabulary, Sentences
+    
+    # TIER 3: Tarefas com Raciocínio (Médio-Alto)
+    # o3-mini: Otimizado para raciocínio, 200K context
+    reasoning_lite: "o3-mini"    # Tips, Grammar (raciocínio pedagógico)
+    
+    # TIER 4: Tarefas Complexas (Alta Qualidade)
+    # gpt-5: $1.25/$10 por 1M tokens, 400K context
+    complex: "gpt-5"             # Unit generation, criação complexa
+    
+    # TIER 5: Raciocínio Profundo (Premium)
+    # o3: Melhor para tarefas que requerem análise profunda
+    reasoning: "o3"              # Assessments, Q&A (Bloom's taxonomy)
+  
+  # Configurações padrão
+  default_model: "gpt-5-mini"   # Modelo padrão para fallback
+  max_tokens: 4096
+  temperature: 0.7
+  timeout: 300  # 5 minutos para modelos 2025
+  max_retries: 3
+  
+  # Configuração específica para modelos o3
+  reasoning_config:
+    effort: "medium"  # low, medium, high (afeta custo e qualidade)
+    streaming: true   # o3-mini suporta streaming
+
+# Configurações específicas por tipo de conteúdo
+content_configs:
+  # TIER 1 - Simples
+  rag_context:
+    model: "gpt-4o"  # Melhorado de gpt-4o-mini para gpt-4o para prompt generation
+    max_tokens: 2048  # Aumentado para prompts mais complexos
+    temperature: 0.3  # Baixa para ser mais factual
+  
+  image_analysis:
+    model: "gpt-4o-mini"  # Multimodal
+    max_tokens: 3000  # Aumentado de 1536 → 3000 (análise mais detalhada)
+    temperature: 0.5
+  
+  # TIER 2 - Médio (UPGRADED para GPT-5-mini)
+  ivo_vocab_generation:
+    model: "gpt-5-mini"  # UPGRADE: gpt-4o → gpt-5-mini para maior qualidade
+    max_tokens: 50000    # MÁXIMO: Aproveitando limite total de output do GPT-5-mini
+    temperature: 0.5     # Mantido - balanceado para vocabulário
+    reasoning_effort: "medium"  # NOVO: Reasoning balanceado para qualidade
+  
+  ivo_sentences_generation:
+    model: "gpt-4o"  # Modelo eficiente e estável
+    max_tokens: 2500  # Aumentado de 1200 → 2500 (equilíbrio custo/qualidade)
+    temperature: 0.6  # Um pouco mais criativo
+  
+  # TIER 3 - Raciocínio Pedagógico
+  ivo_tips_generation:
+    model: "o3-mini"
+    max_tokens: 8000  # Aumentado de 2048 → 8000 (reasoning precisa de espaço)
+    temperature: 0.7
+    reasoning_effort: "medium"
+  
+  ivo_grammar_generation:
+    model: "gpt-4o"  # OTIMIZAÇÃO: o3-mini → gpt-4o (evita reasoning tokens overflow)
+    max_tokens: 3000  # Aumentado de 1800 → 3000 (próximo do limite gpt-4o)
+    temperature: 0.5
+  
+  # TIER 4 - Complexo
+  unit_generation:
+    model: "gpt-5"
+    max_tokens: 15000  # Aumentado de 4096 → 15000 (units são complexas)
+    temperature: 0.7
+    context_window: 400000  # 400K tokens
+  
+  # TIER 5 - Raciocínio Profundo
+  ivo_assessments_generation:
+    model: "o3"
+    max_tokens: 8192  # AUMENTADO: 3072 → 8192 para dar espaço ao reasoning "high"
+    temperature: 0.6
+    reasoning_effort: "high"  # Alta qualidade para avaliações
+  
+  ivo_qa_generation:
+    model: "o3-mini"  # OTIMIZADO: gpt-5-mini → o3-mini (reasoning controlado)
+    max_tokens: 12000  # CRÍTICO: Aumentado de 4096 → 12000 (QA estoura muito)
+    temperature: 0.6
+    reasoning_effort: "low"  # NOVO: Controle de reasoning (low = menos reasoning tokens)
+  
+  # Configurações legacy (para compatibilidade)
+  teoria_generation:
+    model: "gpt-5-mini"
+    max_tokens: 8000  # Aumentado de 3072 → 8000 (teoria precisa de espaço)
+    temperature: 0.6
+  
+  frases_generation:
+    model: "gpt-5-mini"
+    max_tokens: 4000  # Aumentado de 2048 → 4000 (mais frases contextuais)
+    temperature: 0.7
+  
+  gramatica_generation:
+    model: "o3-mini"
+    max_tokens: 6000  # Aumentado de 3072 → 6000 (gramática complexa)
+    temperature: 0.5
+  
+  exercicios_generation:
+    model: "o3"
+    max_tokens: 12000  # Aumentado de 4096 → 12000 (exercícios detalhados)
+    temperature: 0.6
+
+# Mapeamento de custos estimados (para monitoramento)
+cost_tiers:
+  tier_1:  # Baixo custo
+    models: ["gpt-4o-mini"]
+    estimated_cost_per_1m: "$0.15 input / $0.60 output"
+  
+  tier_2:  # Médio-baixo
+    models: ["gpt-5-mini", "gpt-5-nano"]
+    estimated_cost_per_1m: "~$0.30-0.50 input / ~$1-2 output"
+  
+  tier_3:  # Médio
+    models: ["o3-mini"]
+    estimated_cost_per_1m: "Varia com reasoning effort"
+  
+  tier_4:  # Alto
+    models: ["gpt-5"]
+    estimated_cost_per_1m: "$1.25 input / $10 output"
+  
+  tier_5:  # Premium
+    models: ["o3"]
+    estimated_cost_per_1m: "Varia significativamente com reasoning effort"

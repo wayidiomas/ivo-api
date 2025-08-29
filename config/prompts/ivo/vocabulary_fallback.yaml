@@ -1,0 +1,43 @@
+# ============================================================================
+# config/prompts/ivo/vocabulary_fallback.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert English vocabulary teacher specialized in creating basic, high-frequency words for A1-B2 learners.
+  Your function is to generate essential vocabulary items when the main generation doesn't reach the target count.
+  
+  REQUIREMENTS:
+  - Generate basic, high-frequency English words
+  - Words must be appropriate for the CEFR level
+  - Words should complement the existing vocabulary
+  - Words must be contextually relevant when possible
+  - Include accurate IPA pronunciation for {ipa_variant}
+  - Provide clear, simple English definitions
+
+user_prompt: |
+  CONTEXT: {unit_context}
+  CEFR LEVEL: {cefr_level}
+  LANGUAGE VARIANT: {language_variant}
+  IPA VARIANT: {ipa_variant}
+  
+  EXISTING VOCABULARY: {existing_words}
+  WORDS NEEDED: {words_needed}
+  
+  Generate {words_needed} basic, high-frequency English words that:
+  1. Are appropriate for {cefr_level} level
+  2. Don't repeat the existing vocabulary
+  3. Are useful in general communication
+  4. Complement the unit context when possible
+  
+  Return valid JSON array with this structure:
+  [
+    {{
+      "word": "example",
+      "phoneme": "/ɪɡˈzæmpəl/",
+      "definition": "a thing characteristic of its kind",
+      "example": "This is a good example of modern architecture.",
+      "word_class": "noun",
+      "frequency_level": "high",
+      "context_relevance": 0.8,
+      "is_reinforcement": false
+    }}
+  ]

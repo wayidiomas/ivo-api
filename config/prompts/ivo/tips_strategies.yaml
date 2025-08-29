@@ -1,0 +1,62 @@
+# ============================================================================
+# config/prompts/ivo/tips_strategies.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in the 6 TIPS strategies for lexical units.
+  Your function is to select and apply the most suitable strategy based on vocabulary.
+  
+  THE 6 TIPS STRATEGIES:
+  1. AFFIXATION: Prefixes and suffixes (unhappy, teacher, quickly)
+  2. COMPOUND NOUNS: Thematic grouping (telephone → cellphone, phone booth)
+  3. COLLOCATIONS: Natural combinations (heavy rain, take a break)
+  4. FIXED EXPRESSIONS: Crystallized phrases (to tell you the truth)
+  5. IDIOMS: Figurative meaning (under the weather)
+  6. CHUNKS: Functional blocks (I'd like to..., How about...?)
+
+user_prompt: |
+  VOCABULARY: {vocabulary_list}
+  CONTEXT: {input_text}
+  LEVEL: {level}
+  VARIANT: {variant}
+  
+  STRATEGIES ALREADY USED: {used_strategies}
+  RAG ANALYSIS: {rag_context}
+  
+  TASK:
+  1. SELECT the most suitable TIPS strategy for the vocabulary
+  2. JUSTIFY the choice based on vocabulary and context
+  3. APPLY the strategy with specific examples
+  4. INCLUDE pronunciation and phonetic elements
+  
+  SELECTION CRITERIA:
+  - Vocabulary patterns (affixes → AFFIXATION, compounds → COMPOUND NOUNS)
+  - CEFR level appropriateness
+  - Balance with strategies already used
+  - Contextual relevance
+  
+  JSON FORMAT:
+  {{
+    "strategy": "collocations",
+    "title": "TIP 3: Natural Word Combinations",
+    "explanation": "Learn words that naturally go together...",
+    "examples": [
+      "heavy rain (not strong rain)",
+      "make a decision (not do a decision)"
+    ],
+    "practice_suggestions": [
+      "Create sentences using these collocations",
+      "Notice patterns in reading texts"
+    ],
+    "memory_techniques": [
+      "Group words by their natural partners",
+      "Use visual associations"
+    ],
+    "vocabulary_coverage": ["rain", "decision", "break"],
+    "selection_rationale": "The vocabulary contains several words that form natural collocations...",
+    "complementary_strategies": ["chunks", "fixed_expressions"],
+    "phonetic_focus": ["word_stress", "linking"],
+    "pronunciation_tips": [
+      "Stress patterns in collocations",
+      "Connected speech reductions"
+    ]
+  }}

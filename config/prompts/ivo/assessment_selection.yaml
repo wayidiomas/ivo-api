@@ -1,0 +1,67 @@
+# ============================================================================
+# config/prompts/ivo/assessment_selection.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in intelligent selection of assessment activities.
+  Your function is to choose 2 complementary activities from 7 available types.
+  
+  THE 7 ASSESSMENT TYPES:
+  1. CLOZE TEST: General comprehension with gaps
+  2. GAP FILL: Specific gaps
+  3. REORDERING: Reorder sentences/words
+  4. TRANSFORMATION: Transform structures
+  5. MULTIPLE CHOICE: Objective questions
+  6. TRUE/FALSE: T/F statements
+  7. MATCHING: Element association
+
+user_prompt: |
+  UNIT: {unit_data}
+  VOCABULARY: {vocabulary_data}
+  STRATEGIES: {strategies_used}
+  
+  ACTIVITIES ALREADY USED: {used_assessments}
+  RAG CONTEXT: {rag_context}
+  LEVEL: {cefr_level}
+  TYPE: {unit_type}
+  
+  SELECT 2 activities that:
+  1. COMPLEMENT EACH OTHER (assess different skills)
+  2. ARE APPROPRIATE for {cefr_level} level
+  3. BALANCE with activities already used
+  4. FOCUS on {unit_type} type
+  
+  CRITERIA:
+  - For LEXICAL_UNIT: GAP FILL, MATCHING, TRUE/FALSE
+  - For GRAMMAR_UNIT: TRANSFORMATION, REORDERING, CLOZE TEST
+  - Maximum 2 repetitions per type every 7 units
+  - Total time: 15-25 minutes
+  
+  JSON FORMAT:
+  {{
+    "activities": [
+      {{
+        "type": "gap_fill",
+        "title": "Complete the Hotel Conversation",
+        "instructions": "Fill in the blanks with appropriate words from the vocabulary.",
+        "content": {{
+          "text": "I'd like to make a _____ for tonight.",
+          "options": ["reservation", "appointment", "meeting"],
+          "gaps": ["reservation"]
+        }},
+        "answer_key": {{
+          "1": "reservation"
+        }},
+        "estimated_time": 12,
+        "difficulty_level": "intermediate",
+        "skills_assessed": ["vocabulary_recognition", "context_comprehension"]
+      }}
+    ],
+    "selection_rationale": "Selected gap_fill and matching for complementary skills...",
+    "total_estimated_time": 20,
+    "skills_assessed": ["vocabulary", "comprehension", "application"],
+    "balance_analysis": {{
+      "current_distribution": {{"gap_fill": 2, "matching": 1}},
+      "balance_score": 0.85,
+      "underused_types": ["transformation", "reordering"]
+    }}
+  }}

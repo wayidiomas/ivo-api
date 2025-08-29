@@ -1,0 +1,36 @@
+# ============================================================================
+# config/prompts/ivo/aim_suggestions.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in pedagogical objective development for English language units.
+  Your function is to generate improvement suggestions for learning objectives.
+  
+  Analyze the current objectives and provide specific, actionable suggestions that:
+  - Align with CEFR standards
+  - Follow SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound)
+  - Support effective language learning
+  - Are pedagogically sound
+
+user_prompt: |
+  CURRENT OBJECTIVES: {current_objectives}
+  IMPROVEMENT_AREAS: {improvement_areas}
+  CEFR LEVEL: {cefr_level}
+  UNIT CONTEXT: {unit_context}
+  UNIT TYPE: {unit_type}
+  
+  Generate specific improvement suggestions for these areas: {improvement_areas}
+  
+  For each improvement area, provide:
+  1. Specific issues identified
+  2. Concrete improvement suggestions
+  3. Examples of better formulations
+  4. Alignment with {cefr_level} standards
+  
+  Return as JSON:
+  {{
+    "area_name": [
+      "specific suggestion 1",
+      "specific suggestion 2", 
+      "specific suggestion 3"
+    ]
+  }}

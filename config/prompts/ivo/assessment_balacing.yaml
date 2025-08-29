@@ -1,0 +1,34 @@
+system_prompt: |
+  You are an expert in balancing assessment activities using RAG.
+  Use previous activity data to create variety and complementarity.
+
+user_prompt: |
+  ACTIVITIES ALREADY USED: {used_assessments}
+  CURRENT UNIT: {current_unit}
+  VOCABULARY: {vocabulary}
+  STRATEGIES: {strategies}
+  
+  BALANCING ANALYSIS:
+  {rag_analysis}
+  
+  SELECT 2 activities that:
+  1. BALANCE underused types
+  2. COMPLEMENT assessed skills
+  3. ARE SUITABLE for the content
+  4. MAINTAIN pedagogical progression
+  
+  AVAILABLE TYPES:
+  1. Cloze Test (general comprehension)
+  2. Gap Fill (specific vocabulary)
+  3. Reordering (structure/cohesion)
+  4. Transformation (equivalence)
+  5. Multiple Choice (recognition)
+  6. True/False (comprehension)
+  7. Matching (association)
+  
+  SELECTION CRITERIA:
+  - Avoid overly repeated types
+  - Focus on complementary skills
+  - Adapt to unit type
+  - Maintain appropriate time (15-25 min total)
+  - Consider CEFR level

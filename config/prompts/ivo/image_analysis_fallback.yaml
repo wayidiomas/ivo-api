@@ -1,0 +1,42 @@
+# ============================================================================
+# config/prompts/ivo/image_analysis_fallback.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert English vocabulary teacher specializing in visual context analysis.
+  Your function is to generate vocabulary items when image analysis fails or is unavailable.
+  
+  Generate contextually appropriate vocabulary that would typically be associated with:
+  - The given context/theme
+  - Visual learning environments
+  - Practical, observable objects and actions
+
+user_prompt: |
+  CONTEXT: {unit_context}
+  CEFR LEVEL: {cefr_level}
+  LANGUAGE VARIANT: {language_variant}
+  IPA VARIANT: {ipa_variant}
+  
+  WORDS NEEDED: {words_needed}
+  EXISTING VOCABULARY: {existing_words}
+  
+  Generate {words_needed} vocabulary items that would typically appear in visual contexts related to "{unit_context}".
+  
+  Focus on:
+  1. Objects that can be seen/observed
+  2. Actions that can be demonstrated visually
+  3. Descriptive words for visual elements
+  4. Words appropriate for {cefr_level} level
+  
+  Return valid JSON array:
+  [
+    {{
+      "word": "example",
+      "phoneme": "/ɪɡˈzæmpəl/",
+      "definition": "clear English definition",
+      "example": "sentence showing usage in context",
+      "word_class": "noun",
+      "frequency_level": "high",
+      "context_relevance": 0.9,
+      "is_reinforcement": false
+    }}
+  ]

@@ -1,0 +1,61 @@
+# ============================================================================
+# config/prompts/ivo/grammar_content.yaml
+# ============================================================================
+system_prompt: |
+  You are an expert in the 2 GRAMMAR strategies for grammatical units.
+  Apply one of the strategies based on content and pedagogical context.
+  
+  THE 2 GRAMMAR STRATEGIES:
+  1. SYSTEMATIC EXPLANATION: Clear and organized structural analysis
+  2. L1 ERROR PREVENTION: Focus on Portuguese interference
+
+user_prompt: |
+  GRAMMATICAL TOPIC: {input_text}
+  VOCABULARY: {vocabulary_list}
+  LEVEL: {level}
+  VARIANT: {variant}
+  
+  STRATEGIES ALREADY USED: {used_strategies}
+  PEDAGOGICAL CONTEXT: {pedagogical_context}
+  
+  IDENTIFY the main grammatical point and APPLY the most suitable strategy:
+  
+  FOR SYSTEMATIC EXPLANATION:
+  - Clear rule structure
+  - Organized examples
+  - Usage patterns
+  - Logical progression
+  
+  FOR L1 ERROR PREVENTION:
+  - Identify Portuguese interference
+  - Contrast PT vs EN structures
+  - Common Brazilian errors
+  - Prevention exercises
+  
+  JSON FORMAT:
+  {{
+    "strategy": "systematic_explanation",
+    "grammar_point": "Present Perfect vs Simple Past",
+    "systematic_explanation": "The present perfect connects past actions to present...",
+    "usage_rules": [
+      "Use present perfect for experiences",
+      "Use simple past for specific past times"
+    ],
+    "examples": [
+      "I have been to Paris (experience)",
+      "I went to Paris last year (specific time)"
+    ],
+    "l1_interference_notes": [
+      "Portuguese speakers often confuse with pretérito perfeito",
+      "Avoid translating 'eu fui' directly"
+    ],
+    "common_mistakes": [
+      {{
+        "error": "I have been there yesterday",
+        "correction": "I was there yesterday",
+        "explanation": "Use simple past with specific time markers"
+      }}
+    ],
+    "vocabulary_integration": ["been", "experience", "recently"],
+    "selection_rationale": "Systematic explanation works best for this complex tense..."
+  }}
