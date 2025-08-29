@@ -512,9 +512,27 @@ app = FastAPI(
 # =============================================================================
 
 # 1. CORS Middleware
+# Configurar URLs específicas para produção e desenvolvimento
+allowed_origins = [
+    "http://localhost:3000",                    # Desenvolvimento local
+    "https://ivo-front.onrender.com",           # Produção Render
+    "https://ivo-v2-frontend.onrender.com",     # URL alternativa Render
+    "https://wayidiomas-ivo-front.onrender.com",# URL com prefixo do usuário
+]
+
+# Em desenvolvimento, permite todas as origens localhost
+import os
+if os.getenv("ENVIRONMENT", "development") == "development":
+    allowed_origins.extend([
+        "http://localhost:3001",
+        "http://localhost:5173",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:3001",
+    ])
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configurar conforme necessário em produção
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allow_headers=["*"],
