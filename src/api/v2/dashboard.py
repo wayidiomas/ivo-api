@@ -566,3 +566,133 @@ async def _get_activity_summary() -> Dict[str, Any]:
         }
     except Exception:
         return {}
+
+
+@router.get("/dashboard/book-full-data/{book_id}", response_model=SuccessResponse)
+@audit_endpoint(
+    event_type=AuditEventType.BOOK_VIEWED,
+    track_performance=True
+)
+async def get_book_full_data(
+    book_id: str,
+    request: Request,
+    include_stats: bool = Query(True, description="Incluir estatísticas das unidades")
+):
+    """
+    ENDPOINT OTIMIZADO: Buscar book + course + units em uma única chamada.
+    Substitui as 3 chamadas sequenciais da units page por 1 só.
+    """
+    
+    # APLICAR RATE LIMITING
+    await rate_limit_dependency(request, "default")
+    
+    try:
+        logger.info(f"Buscando dados completos do book: {book_id}")
+        
+        # 1. BUSCAR BOOK
+        book = await hierarchical_db.get_book(book_id)
+        if not book:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Book {book_id} não encontrado"
+            )
+        
+        # 2. BUSCAR COURSE (paralelo)
+        course = await hierarchical_db.get_course(book.course_id)
+        
+        # 3. BUSCAR UNITS (paralelo)
+        units = await hierarchical_db.list_units_by_book(book_id)
+        
+        # 4. MONTAR RESPOSTA OTIMIZADA
+        book_data = {
+            "id": book.id,
+            "name": book.name,
+            "description": book.description,
+            "target_level": book.target_level.value,
+            "course_id": book.course_id,
+            "created_at": book.created_at.isoformat(),
+            "updated_at": book.updated_at.isoformat()
+        }
+        
+        course_data = {
+            "id": course.id,
+            "name": course.name,
+            "description": course.description,
+            "target_levels": [level.value for level in course.target_levels]
+        } if course else None
+        
+        # 5. PROCESSAR UNITS COM DADOS NECESSÁRIOS PARA O FRONTEND
+        units_data = []
+        for unit in units:
+            unit_info = {
+                "id": unit.id,
+                "title": unit.title,
+                "context": unit.context,
+                "status": unit.status.value,
+                "unit_type": unit.unit_type.value,
+                "cefr_level": unit.cefr_level.value,
+                "sequence_order": unit.sequence_order,
+                "quality_score": unit.quality_score,
+                "created_at": unit.created_at.isoformat(),
+                "updated_at": unit.updated_at.isoformat(),
+                "main_aim": unit.main_aim,
+                "images": unit.images or []
+            }
+            units_data.append(unit_info)
+        
+        # 6. CALCULAR ESTATÍSTICAS SE SOLICITADO
+        stats = {}
+        if include_stats and units:
+            stats = {
+                "total": len(units),
+                "completed": len([u for u in units if u.status.value == 'completed']),
+                "creating": len([u for u in units if u.status.value == 'creating']),
+                "pending": len([u for u in units if u.status.value == 'assessments_pending']),
+                "by_type": {
+                    "lexical_unit": len([u for u in units if u.unit_type.value == 'lexical_unit']),
+                    "grammar_unit": len([u for u in units if u.unit_type.value == 'grammar_unit']),
+                    "functional_unit": len([u for u in units if u.unit_type.value == 'functional_unit']),
+                    "mixed_unit": len([u for u in units if u.unit_type.value == 'mixed_unit'])
+                }
+            }
+        
+        # 7. LOG DE AUDITORIA
+        await audit_logger_instance.log_hierarchy_operation(
+            event_type=AuditEventType.BOOK_VIEWED,
+            request=request,
+            course_id=book.course_id,
+            book_id=book_id,
+            operation_data={
+                "endpoint": "book_full_data",
+                "units_count": len(units),
+                "include_stats": include_stats,
+                "optimization": "single_call_replacement"
+            },
+            success=True
+        )
+        
+        return SuccessResponse(
+            data={
+                "book": book_data,
+                "course": course_data,
+                "units": units_data,
+                "stats": stats,
+                "generated_at": datetime.now().isoformat()
+            },
+            message=f"Dados completos do book '{book.name}' com {len(units)} unidades",
+            hierarchy_info={
+                "level": "book_full_data",
+                "course_id": book.course_id,
+                "book_id": book_id,
+                "units_count": len(units)
+            }
+        )
+        
+    except HTTPException:
+        raise  # Re-raise HTTP exceptions
+    except Exception as e:
+        logger.error(f"Erro ao buscar dados completos do book {book_id}: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Erro interno: {str(e)}"
+        )
